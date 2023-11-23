@@ -1,3 +1,5 @@
+ /* Google fonts import */
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&family=Playfair+Display:ital@1&display=swap');
 /*Asterisk wildcard selector to override default styles added by browser*/
 *,
 *::before,
@@ -14,15 +16,18 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: lightpink;
+    font-family: 'Noto Serif Balinese', serif;
 }
 
 h1 {
     color: lightpink;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
 }
 
 /* Header */
 header {
-    background-color: darkslateblue;
+    background-color: rgb(94, 84, 159);
     
 }
 
