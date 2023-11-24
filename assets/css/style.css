@@ -100,24 +100,53 @@ main {
     margin-top: 45px;
 }
 
+/*Hero section*/
+#hero {
+    height: 900px;
+    width: 100%;
+    background: url("../images/flowers-jar.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    /*Final rgba value sets the opacity so it is semi-transparent*/
+   /* background-color: rgba(241, 109, 107, .7);*/
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 5px;
+    padding-left: 10px;
+    text-align: right;
+}
+
 .description-container {
     background: url("../images/tiny-flowers-.avif") no-repeat center center/cover;
     background-color: bisque;
     padding: 0 1rem;
 }
 
-.aboutUs-container {
+.about-us-container {
     background-color: rgb(196, 244, 255);
     padding: 0 1rem;
 }
 
+#services h2 {
+    text-align: center;
+}
 .services-container {
     background: url("../images/light-pink-rose-petals.webp");
+    display: flex;
+    flex-wrap: wrap;
    
 }
 
 .services-container > div {
     background-color: rgba(255, 253, 208, .6);
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Create a grid of services dives over the background image*/
     border: 2px solid lightpink;
 }
 
