@@ -1,184 +1,232 @@
  /* Google fonts import */
  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&family=Playfair+Display&display=swap');
-/*Asterisk wildcard selector to override default styles added by browser*/
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
-/* General styles*/
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: black;
-    font-family: 'Noto Serif Balinese', serif;
-    
-}
+ /*Asterisk wildcard selector to override default styles added by browser*/
+ *,
+ *::before,
+ *::after {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ /* General styles*/
+ body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     /* Generic project styles */
+     color: black;
+     font-family: 'Noto Serif Balinese', serif;
+
+ }
 
 
-h1, h2, h3 {
-    
-    font-family: 'Playfair Display', serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
+ h1,
+ h2,
+ h3 {
 
-h2, h3 {
-    color: rgb(28, 26, 26);
-}
+     font-family: 'Playfair Display', serif;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+ }
 
-/* Header */
-header {
-    background-color: rgb(94, 84, 159);
-    color: lightpink;
-    font-size: .5rem;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
+ h2,
+ h3 {
+     color: rgb(28, 26, 26);
+ }
 
-header a {
-    text-decoration: none;
-    color: inherit;
-}
+ /* Header */
+ header {
+     background-color: rgb(94, 84, 159);
+     color: lightpink;
+     font-size: .5rem;
+     padding: 0 1rem;
+     position: fixed;
+     z-index: 99;
+     width: 100%;
+     box-shadow: 0 2px 2px #3a3a3a;
+     display: flex;
+     justify-content: space-between;
+     align-items: baseline;
+ }
 
-#header-menu {
-    font-size: 110%;
-    letter-spacing: 2px;
-    list-style-type: none;
-}
+ header a {
+     text-decoration: none;
+     color: inherit;
+ }
 
-#header-menu > li {
-    margin-bottom: 1em;
-}
+ #header-menu {
+     font-size: 110%;
+     letter-spacing: 2px;
+     list-style-type: none;
+ }
 
-.active{
-    border-bottom: 1px solid lightpink;
-}
+ #header-menu>li {
+     margin-bottom: 1em;
+ }
 
-/* Navbar style with dropdown toggle */
-nav {
-    position: absolute;
-    background-color: rgb(94, 84, 159);
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px lightpink;
-    display: none;
-    top: 100%;
-}
+ .active {
+     border-bottom: 1px solid lightpink;
+ }
 
-/*Nav toggle*/
-#nav-toggle:checked~nav{
-    display: block;
-}
+ /* Navbar style with dropdown toggle */
+ nav {
+     position: absolute;
+     background-color: rgb(94, 84, 159);
+     width: 100%;
+     left: 0;
+     padding: 0 1rem;
+     box-shadow: 0 2px 2px lightpink;
+     display: none;
+     top: 100%;
+ }
 
-#nav-toggle{
-    display: none;
-}
+ /*Nav toggle*/
+ #nav-toggle:checked~nav {
+     display: block;
+ }
 
-.nav-toggle-label{
-    font-size: 2rem;
-    
-}
+ #nav-toggle {
+     display: none;
+ }
 
-/* Main Content */
-main {
-    background-color: lightpink;
-    /* Make main element take up any surplus space to push footer down*/
-    flex: 1 0 auto;
-    margin-top: 45px;
-}
+ .nav-toggle-label {
+     font-size: 2rem;
 
-/*Hero section*/
-#hero {
-    height: 600px;
-    width: 100%;
-    background: url("../images/flowers-jar.webp") no-repeat center center/cover;
-    position: relative;
-}
+ }
 
-#cover-text {
-    /*Final rgba value sets the opacity so it is semi-transparent*/
-   /* background-color: rgba(241, 109, 107, .7);*/
-    font-size: 130%;
-    position: absolute;
-    bottom: 30px;
-    width: 80%;
-    min-height: 200px;
-    padding-top: 5px;
-    padding-left: 20px;
-    text-align:right;
-}
+ /* Main Content */
+ main {
+     background-color: lightpink;
+     /* Make main element take up any surplus space to push footer down*/
+     flex: 1 0 auto;
+     margin-top: 45px;
+ }
 
-.description-container {
-    background: url("../images/tiny-flowers-.avif") no-repeat center center/cover;
-    background-color: bisque;
-    padding: 0 1rem;
-}
+ /*Hero section*/
+ #hero {
+     height: 600px;
+     width: 100%;
+     background: url("../images/flowers-jar.webp") no-repeat center center/cover;
+     position: relative;
+ }
 
-.about-us-container {
-    background-color: rgb(196, 244, 255);
-    padding: 0 1rem;
-}
+ #cover-text {
+     /*Final rgba value sets the opacity so it is semi-transparent*/
+     /* background-color: rgba(241, 109, 107, .7);*/
+     font-size: 130%;
+     position: absolute;
+     bottom: 30px;
+     width: 80%;
+     min-height: 200px;
+     padding-top: 5px;
+     padding-left: 20px;
+     text-align: right;
+ }
 
-#services h2 {
-    text-align: center;
-}
-.services-container {
-    background: url("../images/light-pink-rose-petals.webp");
-    display: flex;
-    flex-wrap: wrap;
-   
-}
+ .description-container {
+     background: url("../images/tiny-flowers-.avif") no-repeat center center/cover;
+     background-color: bisque;
+     padding: 0 1rem;
+ }
 
-.services-container > div {
-    background-color: rgba(255, 253, 208, .6);
-    flex-basis: 200px;
-    flex-grow: 1;
-    /* Create a grid of services dives over the background image*/
-    border: 8px solid lightpink;
-}
+ #services h2 {
+     text-align: center;
+ }
 
-.birthday, .anniversary, .vase-flowers, .bascket-flowers {
-    padding: 0 1rem;
-}
+ .services-container {
+     background: url("../images/light-pink-rose-petals.webp");
+     display: flex;
+     flex-wrap: wrap;
 
-.testimonials-container {
-    background-color: aquamarine;
-    display: flex;
-    flex-wrap: wrap;
-}
+ }
 
-.testimonials-container > div {
-    background-color: darkcyan;    
-    flex-basis: 200px;
-    flex-grow: 1;
-    /* Create a grid of services dives over the background image*/
-    border: 2px solid lightpink;
-}
+ .services-container>div {
+     background-color: rgba(255, 253, 208, .6);
+     flex-basis: 200px;
+     flex-grow: 1;
+     /* Create a grid of services dives over the background image*/
+     border: 8px solid lightpink;
+ }
 
-/*
-.services-container {
-    width: 100%;    
-    display:flex;
-}
+ .about-us-cover {
+     background: url("../images/woman-working-flower-shop-with-bouquet-flowers.avif") no-repeat center center/cover;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     height: 300px;
+     position: relative;
+ }
 
-.services-container > * {
-    width: calc(100% / 3);
-}*/
+ .about-us-cover>h2 {
+     font-size: 200%;
+     color: white;
+     position: absolute;
+     top: 50%;
+     left: 80%;
+     transform: translate(-50%, -50%);
+     width: 80%;
 
-/* Footer */
-footer {
-    background-color: blueviolet;
-}
+ }
+
+ .about-us-container {
+     display: block;
+     padding: 0 6rem;
+ }
+
+ .hr-lines {
+     position: relative;
+     max-width: 500px;
+     margin: 100px auto;
+     text-align: center;
+ }
+
+ .hr-lines:before {
+     content: " ";
+     height: 2px;
+     width: 130px;
+     background: red;
+     display: block;
+     position: absolute;
+     top: 50%;
+     left: 0px;
+ }
+
+ .hr-lines:after {
+     content: " ";
+     height: 2px;
+     width: 130px;
+     background: red;
+     display: block;
+     position: absolute;
+     top: 50%;
+     right: 0;
+ }
+
+ .birthday,
+ .anniversary,
+ .vase-flowers,
+ .bascket-flowers {
+     padding: 0 1rem;
+ }
+
+ .testimonials-container {
+     background-color: aquamarine;
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .testimonials-container>div {
+     background-color: darkcyan;
+     flex-basis: 200px;
+     flex-grow: 1;
+     /* Create a grid of services dives over the background image*/
+     border: 2px solid lightpink;
+ } 
+
+ /* Footer */
+ footer {
+     background-color: rgb(94, 84, 159);
+ }
