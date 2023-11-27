@@ -142,7 +142,7 @@
 
  }
 
- .services-container>div {
+ .services-container > div {
      background-color: rgba(255, 253, 208, .6);
      flex-basis: 200px;
      flex-grow: 1;
@@ -160,8 +160,8 @@
      position: relative;
  }
 
- .about-us-cover>h2 {
-     font-size: 200%;
+ .about-us-cover > h2 {
+     font-size: 100%;
      color: white;
      position: absolute;
      top: 50%;
@@ -177,9 +177,10 @@
  }
 
  .hr-lines {
+    font-size: 100%;
      position: relative;
      max-width: 500px;
-     margin: 100px auto;
+     margin: 50px auto;
      text-align: center;
  }
 
@@ -218,7 +219,7 @@
      flex-wrap: wrap;
  }
 
- .testimonials-container>div {
+ .testimonials-container > div {
      background-color: darkcyan;
      flex-basis: 200px;
      flex-grow: 1;
@@ -230,3 +231,16 @@
  footer {
      background-color: rgb(94, 84, 159);
  }
+
+ /*Media query: tables and larger(768px and up)*/
+@media screen and (min-width:768px) {
+    .about-us-cover > h2 {
+        font-size: 200%;
+    }
+
+    .hr-lines {
+        font-size: 100%;
+    }
+}
+
+    
