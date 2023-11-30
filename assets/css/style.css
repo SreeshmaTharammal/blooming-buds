@@ -134,6 +134,7 @@
      background: url("../images/tiny-flowers-.avif") no-repeat center center/cover;
      background-color: bisque;
      padding: 0 1rem;
+     display: block;
  }
 
  #services h2 {
@@ -205,7 +206,9 @@
      padding: 0 1rem;
  }
 
-
+.span-italic {
+    font-style: italic;
+}
 
  video {
      float: right;
@@ -367,11 +370,6 @@ textarea {
      font-weight: bold;
  }
 
- .contact-recieve-container span {
-     font-style: italic;
- }
-
-
 
  /* Gallery page*/
  #photos {
@@ -405,6 +403,33 @@ textarea {
 
  /*Media query: tables and larger(768px and up)*/
  @media screen and (min-width:768px) {
+    /*Header*/
+    nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width:fit-content;
+        padding-right: 1rem;
+    }
+    
+    #header-menu{
+        display: flex;
+    }
+
+    #header-menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
 
      /* About us section*/
      .about-us-cover {
@@ -453,10 +478,75 @@ textarea {
      }
 
      .contact-us-container {
-        padding: 10px, 5px;
-       /* display: flex;
-        flex-wrap: wrap;*/
+        padding: 10px, 15px;
+       /* align-items: center;
+        text-align: center;*/
+        display: flex;       
      }
+
+     .address {
+        
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+        margin-top: 100px;
+       /* align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+       width: 300px;
+       height: 50px;
+      margin-top: auto;
+       */
+       
+     }
+    
+     .form {   
+        flex: 1, 1, 400px;   
+        width: 400px;
+        margin-left: 10px;      
+        /*display: inline-block;
+        width: 500px;
+        height: 100px;
+        margin: 10px;
+        right: 20%;
+        margin-left: 300px;*/
+
+     }
+
+     #contact-form {
+        width: 300px;
+     }
+/*
+     .text-input {       
+       
+        width: 100%;
+        
+        
+    }*/
+
+     textarea {
+        background-color: transparent;
+        border-color: #fafafa;
+        width: 50%;
+        height: 100px;
+
+     }
+
+     #contact-form h3 {
+        font-size: 20px;
+        font-weight: bold;
+     }
+
+     .text-input:hover, textarea:hover {
+        border-color: lightpink;
+    }     
+
+    .send-button:hover {
+        background-color: #fafafa;
+        color: rgb(94, 84, 159);
+    }
 
      #contact-recieve {
          height: 1320px;
@@ -464,6 +554,29 @@ textarea {
 
      .contact-recieve-container p:first-child {
          font-size: 40px;
+     }
+ }
+
+ /*Media query: tables and larger(992px and up)*/
+@media screen and (min-width:992px) {
+    .address {
+        
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 25%;
+        
+        margin-top: 100px;
+       /* margin-right: 50%;
+       align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+       width: 300px;
+       height: 50px;
+      margin-top: auto;
+       */
+       
      }
  }
 
@@ -492,5 +605,14 @@ textarea {
          padding: 0 8rem;
 
      }
+
+    /* .address {
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+        margin-top: 100px;
+        margin-left:30%;
+     }*/
 
  }
