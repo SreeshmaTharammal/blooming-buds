@@ -348,6 +348,7 @@ textarea {
     padding: 15px 32px;
     border-radius: 2px;
     width: 150px;
+    box-shadow: 5px 5px 5px #3a3a3a;
 }
 
  #contact-recieve {
@@ -403,6 +404,10 @@ textarea {
 
  /*Media query: tables and larger(768px and up)*/
  @media screen and (min-width:768px) {
+    #cover-text{
+        background-image: url("../images/tiny-flowers-.avif") no-repeat center center/cover;
+       /* background-color: honeydew;*/
+    }
     /*Header*/
     nav{
         display: block;
@@ -418,6 +423,7 @@ textarea {
 
     #header-menu > li {
         padding-left: 1rem;
+        font-size: 20px;
     }
 
     .nav-toggle-label {
@@ -430,6 +436,14 @@ textarea {
         margin: 0 0.5rem;
     }
 
+    #header-menu a:hover {
+        box-shadow: 0 2px 4px lightpink;
+    }
+/*
+    .active {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+*/
 
      /* About us section*/
      .about-us-cover {
