@@ -162,6 +162,10 @@
      padding: 0 1rem;
  }
 
+ #testimonials {
+    text-align: center;
+ }
+
  .testimonials-container {
      background-color: aquamarine;
      display: flex;
@@ -174,6 +178,24 @@
      flex-grow: 1;
      /* Create a grid of testimonials dives over the background image*/
      border: 2px solid lightpink;
+ }
+
+ .testimonials-img-container {
+    display: flex;
+    align-items: center;   
+ }
+
+ .testimonials-img-container img {
+    width: 100px;
+    height: 100px;
+   /* max-width: 100%;*/
+    align-items: center;
+ }
+
+ .testimonials-img-container h3 {
+    align-items: center;
+    padding-left: 20px;
+    text-transform:capitalize;    
  }
 
  /* About us image*/
