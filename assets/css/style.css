@@ -160,8 +160,8 @@
      background-color: rgba(255, 253, 208, .6);
      flex-basis: 200px;
      flex-grow: 1;
-     /* Create a grid of services dives over the background image*/
-     border: 8px solid lightpink;
+     /* Create a grid of services dives over the background image
+     border: 8px solid lightpink;*/
  }
 
  .birthday,
@@ -172,6 +172,15 @@
      padding: 0 1rem;
  }
 
+ .birthday,
+ .anniversary,
+ .vase-flowers,
+ .bascket-flowers,
+  img:hover{
+    transform: scale(.9);
+    transition: transform 0.3s ease;
+ }
+ 
  #customer-story {
     text-align: center;
  }
@@ -185,7 +194,7 @@
  .customer-story-container>div {
      background-color: darkcyan;
      flex-basis: 200px;
-     flex-grow: 1;
+     flex-grow: 1;     
      /* Create a grid of customer-story dives over the background image*/
      border: 2px solid lightpink;
  }
