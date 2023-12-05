@@ -158,41 +158,42 @@
  .birthday,
  .anniversary,
  .vase-flowers,
- .bascket-flowers {
+ .bascket-flowers,
+ .customer-story-para {
      padding: 0 1rem;
  }
 
- #testimonials {
+ #customer-story {
     text-align: center;
  }
 
- .testimonials-container {
+ .customer-story-container {
      background-color: aquamarine;
      display: flex;
      flex-wrap: wrap;
  }
 
- .testimonials-container>div {
+ .customer-story-container>div {
      background-color: darkcyan;
      flex-basis: 200px;
      flex-grow: 1;
-     /* Create a grid of testimonials dives over the background image*/
+     /* Create a grid of customer-story dives over the background image*/
      border: 2px solid lightpink;
  }
 
- .testimonials-img-container {
+ .customer-story-img-container {
     display: flex;
     align-items: center;   
  }
 
- .testimonials-img-container img {
+ .customer-story-img-container img {
     width: 100px;
     height: 100px;
    /* max-width: 100%;*/
     align-items: center;
  }
 
- .testimonials-img-container h3 {
+ .customer-story-img-container h3 {
     align-items: center;
     padding-left: 20px;
     text-transform:capitalize;    
@@ -395,13 +396,13 @@ textarea {
 
 
  /* Gallery page*/
- #photos {
-     column-count: 3;
-     column-gap: 0;
+ #photos img {
+     width: 100%;
+     line-height: 2em;
  }
 
  #photos {
-     line-height: 0;
+    line-height: 0;
  }
 
  /* Footer */
@@ -423,6 +424,26 @@ textarea {
      background-color: rgb(165, 157, 214);
  }
 
+ /*Media query: tables and larger(615px and up)
+ @media screen and (min-width:615px) {
+    .birthday img {
+        width: 500px;
+        height: 360px;
+    }
+
+    .anniversary img {
+        width: 500px;
+        height: 360px;
+    }
+    .vase-flowers img {
+        width: 500px;
+        height: 360px;
+    }
+    .bascket-flowers img {
+        width: 500px;
+        height: 360px;
+    }
+ }*/
 
  /*Media query: tables and larger(768px and up)*/
  @media screen and (min-width:768px) {
@@ -526,28 +547,14 @@ textarea {
         align-items: center;
         justify-content: center;
         margin-left: 10%;
-        margin-top: 100px;
-       /* align-items: center;
-        justify-content: center;
-        text-align: center;
-       
-       width: 300px;
-       height: 50px;
-      margin-top: auto;
-       */
+        margin-top: 100px;     
        
      }
     
      .form {   
         flex: 1, 1, 400px;   
         width: 400px;
-        margin-left: 10px;      
-        /*display: inline-block;
-        width: 500px;
-        height: 100px;
-        margin: 10px;
-        right: 20%;
-        margin-left: 300px;*/
+        margin-left: 10px;           
 
      }
 
