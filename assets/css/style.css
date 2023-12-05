@@ -128,13 +128,22 @@
      padding-top: 5px;
      padding-left: 20px;
      text-align: right;
+     /* background-color: rgba(128, 128, 128, .6);
+    background: url("../images/tiny-flowers-.avif") no-repeat center center/cover;*/
  }
+
+/* #cover-text h1, #cover-text h3 {
+    color: #c721b4;
+ }*/
 
  .description-container {
      background: url("../images/tiny-flowers-.avif") no-repeat center center/cover;
      background-color: bisque;
-     padding: 0 1rem;
+     padding: 0 2rem;
      display: block;
+     font-size: 20px;
+     font-style: italic;
+     font-weight: 500;
  }
 
  #services h2 {
@@ -280,6 +289,23 @@
      flex-basis: 100px;
  }
 
+  /* Gallery page*/
+  #photos img {
+    width: 100%;
+    line-height: 2em;
+}
+
+#photos {
+   line-height: 0;
+}
+
+/*
+#photos:has(img:hover) > img:not(:hover) {
+    scale: .8;
+    opacity: .7;
+}
+*/
+
  #contact-us {
      background: url("../images/contact-us-image.jpg") no-repeat center center/cover;
      display: block;
@@ -395,15 +421,7 @@ textarea {
  }
 
 
- /* Gallery page*/
- #photos img {
-     width: 100%;
-     line-height: 2em;
- }
 
- #photos {
-    line-height: 0;
- }
 
  /* Footer */
  #social-networks {
@@ -623,7 +641,7 @@ textarea {
      #photos {
         column-count: 4;       
     }
-    
+
     .address {
         
         width: 200px;
