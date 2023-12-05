@@ -445,6 +445,18 @@ textarea {
     }
  }*/
 
+ /* Media query: large or landscape phones(576px and up) */
+ @media screen and (min-width:576px) {
+    /* Gallery page */
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+   
+ }
+    
+ 
+
  /*Media query: tables and larger(768px and up)*/
  @media screen and (min-width:768px) {
     #cover-text{
@@ -516,7 +528,12 @@ textarea {
          width: 160px;
      }
 
-     /* Contact us section*/
+     /* Gallery page */
+    #photos {
+        column-count: 3;       
+    }
+
+     /* Contact us page*/
      #contact-us {
          width: 80%;
          height: 500px;
@@ -600,8 +617,13 @@ textarea {
      }
  }
 
- /*Media query: tables and larger(992px and up)*/
+ /*Media query: laptops and desktops(992px and up)*/
 @media screen and (min-width:992px) {
+     /* Gallery page */
+     #photos {
+        column-count: 4;       
+    }
+    
     .address {
         
         width: 200px;
