@@ -69,6 +69,7 @@
 
  #header-menu>li {
      margin-bottom: 1em;
+     font-size: medium;
  }
 
  .active {
@@ -121,8 +122,7 @@
      /*Final rgba value sets the opacity so it is semi-transparent*/
      background-color: rgba(168, 160, 159, 0.7);
      font-size: 100%;
-     position: absolute;
-     left: 10px;
+     position: absolute;     
      bottom: 30px;
      width: 90%;
      min-height: 150px;
@@ -130,7 +130,7 @@
      text-align: center;   
  }
 
- #cover-text h3 {
+ #cover-text > h3 {
     font-style: italic;
     text-transform: capitalize;
 
@@ -308,13 +308,6 @@
    line-height: 0;
 }
 
-/*
-#photos:has(img:hover) > img:not(:hover) {
-    scale: .8;
-    opacity: .7;
-}
-*/
-
  #contact-us {
      background: url("../images/contact-us-image.jpg") no-repeat center center/cover;
      display: block;
@@ -448,6 +441,13 @@ textarea {
     transform: scale(1.5);
  }
 
+
+ @media only screen and (min-width: 280px) and (max-width: 767px) {
+    /* Hero section */
+    #cover-text{
+        left: 10px;
+    }
+ }
  /*Media query: tables and larger(615px and up)
  @media screen and (min-width:615px) {
     .birthday img {
@@ -482,10 +482,9 @@ textarea {
  
 
  /*Media query: tables and larger(768px and up)*/
- @media screen and (min-width:768px) {
-    #cover-text{
-        background-image: url("../images/tiny-flowers-.avif") no-repeat center center/cover;
-       /* background-color: honeydew;*/
+ @media screen and (min-width:768px) {    
+    h1, h2, h3 {
+        letter-spacing: 4px;
     }
     /*Header*/
     nav{
@@ -518,11 +517,14 @@ textarea {
     #header-menu a:hover {
         box-shadow: 0 2px 4px lightpink;
     }
-/*
-    .active {
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    /* Hero */
+    #cover-text{
+       width: 450px;
+       right: 50px;
     }
-*/
+
+    
 
      /* About us section*/
      .about-us-cover {
@@ -643,6 +645,13 @@ textarea {
 
  /*Media query: laptops and desktops(992px and up)*/
 @media screen and (min-width:992px) {
+
+     /* Hero */
+     #cover-text{
+        width: 600px;
+        right: 50px;
+     }
+
      /* Gallery page */
      #photos {
         column-count: 4;       
@@ -662,6 +671,12 @@ textarea {
 
  /* Media query: screen size 1200px and wider*/
  @media screen and (min-width:1200px) {
+
+    /* Hero */
+    #cover-text{       
+        right: 100px;
+     }
+
      .about-us-container {
          font-size: 25px;
          display: block;
