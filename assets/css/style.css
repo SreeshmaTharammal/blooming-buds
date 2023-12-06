@@ -102,9 +102,9 @@
 
  /* Main Content */
  main {
-     background-color: lightpink;
-     /* Make main element take up any surplus space to push footer down*/
+     background-color: lightpink;        
      flex: 1 0 auto;
+     /* Make main element take up any surplus space to push footer down*/
      margin-top: 45px;
  }
 
@@ -216,6 +216,11 @@
     text-transform:capitalize;    
  }
 
+ /* Gallery */
+ .main-gallery {
+    /* Make main element take up any surplus space to push footer down*/
+    margin-top: 77px;
+ }
  /* About Us page */
  /* About us image*/
  .about-us-cover {
