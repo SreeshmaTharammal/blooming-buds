@@ -21,11 +21,9 @@
 
  }
 
-
  h1,
  h2,
  h3 {
-
      font-family: 'Playfair Display', serif;
      text-transform: uppercase;
      letter-spacing: 1px;     
@@ -136,6 +134,7 @@
 
  }
 
+ /* Description section */
  .description-container {
      background: url("../images/tiny-flowers-.avif") no-repeat center center/cover;
      background-color: bisque;
@@ -146,6 +145,7 @@
      font-weight: 500;     
  }
 
+/* Our Services section */
  #services h2 {
      text-align: center;
  }
@@ -159,9 +159,7 @@
  .services-container>div {
      background-color: rgba(255, 253, 208, .6);
      flex-basis: 200px;
-     flex-grow: 1;
-     /* Create a grid of services dives over the background image
-     border: 8px solid lightpink;*/
+     flex-grow: 1;     
  }
 
  .birthday,
@@ -180,7 +178,8 @@
     transform: scale(.9);
     transition: transform 0.3s ease;
  }
- 
+
+ /* Customer Story section */
  #customer-story {
     text-align: center;
  }
@@ -217,6 +216,7 @@
     text-transform:capitalize;    
  }
 
+ /* About Us page */
  /* About us image*/
  .about-us-cover {
      background: url("../images/woman-working-flower-shop-with-bouquet-flowers.avif") no-repeat center center/cover;
@@ -441,34 +441,22 @@ textarea {
     transform: scale(1.5);
  }
 
-
+/* Media query: devices with screen width between  280px and  767px (inclusive) */
  @media only screen and (min-width: 280px) and (max-width: 767px) {
     /* Hero section */
     #cover-text{
         left: 10px;
     }
  }
- /*Media query: tables and larger(615px and up)
- @media screen and (min-width:615px) {
-    .birthday img {
-        width: 500px;
-        height: 360px;
-    }
 
-    .anniversary img {
-        width: 500px;
-        height: 360px;
+  /* Media query: devices with screen width between 600px and 800px (inclusive) */
+ @media only screen and (min-width: 600px) and (max-width: 800px) {
+    /* Our Services section */
+    .services-container>div {
+        flex-basis: 300px;
     }
-    .vase-flowers img {
-        width: 500px;
-        height: 360px;
-    }
-    .bascket-flowers img {
-        width: 500px;
-        height: 360px;
-    }
- }*/
-
+ }
+ 
  /* Media query: large or landscape phones(576px and up) */
  @media screen and (min-width:576px) {
     /* Gallery page */
@@ -478,9 +466,7 @@ textarea {
     }
    
  }
-    
- 
-
+   
  /*Media query: tables and larger(768px and up)*/
  @media screen and (min-width:768px) {    
     h1, h2, h3 {
@@ -523,8 +509,6 @@ textarea {
        width: 450px;
        right: 50px;
     }
-
-    
 
      /* About us section*/
      .about-us-cover {
