@@ -26,7 +26,7 @@
  h3 {
      font-family: 'Playfair Display', serif;
      text-transform: uppercase;
-     letter-spacing: 1px;     
+     letter-spacing: 1px;
  }
 
  h2,
@@ -102,7 +102,7 @@
 
  /* Main Content */
  main {
-     background-color: lightpink;        
+     background-color: lightpink;
      flex: 1 0 auto;
      /* Make main element take up any surplus space to push footer down*/
      margin-top: 45px;
@@ -120,17 +120,17 @@
      /*Final rgba value sets the opacity so it is semi-transparent*/
      background-color: rgba(168, 160, 159, 0.7);
      font-size: 100%;
-     position: absolute;     
+     position: absolute;
      bottom: 30px;
      width: 90%;
      min-height: 150px;
-     padding: 20px;     
-     text-align: center;   
+     padding: 20px;
+     text-align: center;
  }
 
- #cover-text > h3 {
-    font-style: italic;
-    text-transform: capitalize;
+ #cover-text>h3 {
+     font-style: italic;
+     text-transform: capitalize;
 
  }
 
@@ -142,10 +142,10 @@
      display: block;
      font-size: 20px;
      font-style: italic;
-     font-weight: 500;     
+     font-weight: 500;
  }
 
-/* Our Services section */
+ /* Our Services section */
  #services h2 {
      text-align: center;
  }
@@ -159,7 +159,7 @@
  .services-container>div {
      background-color: rgba(255, 253, 208, .6);
      flex-basis: 200px;
-     flex-grow: 1;     
+     flex-grow: 1;
  }
 
  .birthday,
@@ -174,14 +174,14 @@
  .anniversary,
  .vase-flowers,
  .bascket-flowers,
-  img:hover{
-    transform: scale(.9);
-    transition: transform 0.3s ease;
+ img:hover {
+     transform: scale(.9);
+     transition: transform 0.3s ease;
  }
 
  /* Customer Story section */
  #customer-story {
-    text-align: center;
+     text-align: center;
  }
 
  .customer-story-container {
@@ -193,34 +193,30 @@
  .customer-story-container>div {
      background-color: darkcyan;
      flex-basis: 200px;
-     flex-grow: 1;     
+     flex-grow: 1;
      /* Create a grid of customer-story dives over the background image*/
      border: 2px solid lightpink;
  }
 
  .customer-story-img-container {
-    display: flex;
-    align-items: center;   
+     display: flex;
+     align-items: center;
  }
 
  .customer-story-img-container img {
-    width: 100px;
-    height: 100px;
-   /* max-width: 100%;*/
-    align-items: center;
+     width: 100px;
+     height: 100px;
+     /* max-width: 100%;*/
+     align-items: center;
  }
 
  .customer-story-img-container h3 {
-    align-items: center;
-    padding-left: 20px;
-    text-transform:capitalize;    
+     align-items: center;
+     padding-left: 20px;
+     text-transform: capitalize;
  }
 
- /* Gallery */
- .main-gallery {
-    /* Make main element take up any surplus space to push footer down*/
-    margin-top: 77px;
- }
+
  /* About Us page */
  /* About us image*/
  .about-us-cover {
@@ -252,9 +248,9 @@
      padding: 0 1rem;
  }
 
-.span-italic {
-    font-style: italic;
-}
+ .span-italic {
+     font-style: italic;
+ }
 
  video {
      float: right;
@@ -303,15 +299,28 @@
      flex-basis: 100px;
  }
 
-  /* Gallery page*/
-  #photos img {
-    width: 100%;
-    line-height: 2em;
-}
+ /* Gallery page*/
+ .main-gallery {
+     /* Make main element take up any surplus space to push footer down*/
+     margin-top: 77px;
+ }
 
-#photos {
-   line-height: 0;
-}
+ #photos {
+     line-height: 0;
+ }
+
+ #photos img {
+     width: 100%;
+     line-height: 2em;
+ }
+
+ /* Apply a scale transformation to zoom the size of the element on hover */
+ .zoom-on-hover:hover {
+     transform: scale(1.2);
+     transition: transform 0.3s ease;
+ }
+
+
 
  #contact-us {
      background: url("../images/contact-us-image.jpg") no-repeat center center/cover;
@@ -337,75 +346,75 @@
  .contact-us-cover {
      position: absolute;
      top: 50%;
-     left: 20%; 
+     left: 20%;
 
  }
 
  .contact-us-cover>h2 {
-    color: rgb(236,236,226);
+     color: rgb(236, 236, 226);
      font-size: 20px;
  }
 
-/*
+ /*
  .contact-us-container {
     padding: 10px 5px;
  }
 */
  .address {
-    padding: 30px;
+     padding: 30px;
  }
 
- .form {    
-    display: flex;
-    flex-wrap: wrap;
-    
+ .form {
+     display: flex;
+     flex-wrap: wrap;
+
  }
- 
- #contact-form {    
-    background-color: rgba(169, 169, 169, 0.5);
-    border: 15px solid lightpink;
-    top: 5px;
-    bottom: 20px;
-    left: 10%;
-    right: 10%;
-    padding: 30px;
-    flex-basis: 200px;
+
+ #contact-form {
+     background-color: rgba(169, 169, 169, 0.5);
+     border: 15px solid lightpink;
+     top: 5px;
+     bottom: 20px;
+     left: 10%;
+     right: 10%;
+     padding: 30px;
+     flex-basis: 200px;
      flex-grow: 1;
-    
+
  }
 
- #contact-form h3 {    
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 20px;
-} 
+ #contact-form h3 {
+     font-size: 15px;
+     font-weight: bold;
+     margin-bottom: 20px;
+ }
 
-.text-input {
-    background: transparent;    
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    padding: 0 5px;
-}
+ .text-input {
+     background: transparent;
+     border: 1px solid #fafafa;
+     border-radius: 2px;
+     width: 100%;
+     height: 25px;
+     margin: 5px 0 20px 0;
+     padding: 0 5px;
+ }
 
-textarea {
-    width: 200px; 
-    height: 70px; 
-  }
+ textarea {
+     width: 200px;
+     height: 70px;
+ }
 
-  .send-button {
-    background-color: rgb(94, 84, 159);
-    color: #fafafa;
-    font-size: 100%;
-    font-weight: bold;
-    margin-top: 15px;
-    padding: 15px 32px;
-    border-radius: 2px;
-    width: 150px;
-    box-shadow: 5px 5px 5px #3a3a3a;
-}
+ .send-button {
+     background-color: rgb(94, 84, 159);
+     color: #fafafa;
+     font-size: 100%;
+     font-weight: bold;
+     margin-top: 15px;
+     padding: 15px 32px;
+     border-radius: 2px;
+     width: 150px;
+     box-shadow: 5px 5px 5px #3a3a3a;
+ }
 
  #contact-recieve {
      background: url("../images/stock-photo-fruit-tree-flowers-on-the-white-wooden-background.jpg") no-repeat center center/cover;
@@ -441,79 +450,86 @@ textarea {
      font-size: 160%;
      padding: 5%;
  }
- 
- #social-networks i:hover {     
-    transform: scale(1.5);
+
+ #social-networks i:hover {
+     transform: scale(1.5);
  }
 
-/* Media query: devices with screen width between  280px and  767px (inclusive) */
+ /* Media query: devices with screen width between  280px and  767px (inclusive) */
  @media only screen and (min-width: 280px) and (max-width: 767px) {
-    /* Hero section */
-    #cover-text{
-        left: 10px;
-    }
+
+     /* Hero section */
+     #cover-text {
+         left: 10px;
+     }
  }
 
-  /* Media query: devices with screen width between 600px and 800px (inclusive) */
+ /* Media query: devices with screen width between 600px and 800px (inclusive) */
  @media only screen and (min-width: 600px) and (max-width: 800px) {
-    /* Our Services section */
-    .services-container>div {
-        flex-basis: 300px;
-    }
+
+     /* Our Services section */
+     .services-container>div {
+         flex-basis: 300px;
+     }
  }
- 
+
  /* Media query: large or landscape phones(576px and up) */
  @media screen and (min-width:576px) {
-    /* Gallery page */
-    #photos {
-        column-count: 2;
-        column-gap: 0;
-    }
-   
+
+     /* Gallery page */
+     #photos {
+         column-count: 2;
+         column-gap: 0;
+     }
+
  }
-   
+
  /*Media query: tables and larger(768px and up)*/
- @media screen and (min-width:768px) {    
-    h1, h2, h3 {
-        letter-spacing: 4px;
-    }
-    /*Header*/
-    nav{
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width:fit-content;
-        padding-right: 1rem;
-    }
-    
-    #header-menu{
-        display: flex;
-    }
+ @media screen and (min-width:768px) {
 
-    #header-menu > li {
-        padding-left: 1rem;
-        font-size: 20px;
-    }
+     h1,
+     h2,
+     h3 {
+         letter-spacing: 4px;
+     }
 
-    .nav-toggle-label {
-        display: none;
-    }
+     /*Header*/
+     nav {
+         display: block;
+         position: relative;
+         box-shadow: none;
+         width: fit-content;
+         padding-right: 1rem;
+     }
 
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
+     #header-menu {
+         display: flex;
+     }
 
-    #header-menu a:hover {
-        box-shadow: 0 2px 4px lightpink;
-    }
+     #header-menu>li {
+         padding-left: 1rem;
+         font-size: 20px;
+     }
 
-    /* Hero */
-    #cover-text{
-       width: 450px;
-       right: 50px;
-    }
+     .nav-toggle-label {
+         display: none;
+     }
+
+     #logo {
+         font-size: 280%;
+         line-height: 75px;
+         margin: 0 0.5rem;
+     }
+
+     #header-menu a:hover {
+         box-shadow: 0 2px 4px lightpink;
+     }
+
+     /* Hero */
+     #cover-text {
+         width: 450px;
+         right: 50px;
+     }
 
      /* About us section*/
      .about-us-cover {
@@ -544,9 +560,9 @@ textarea {
      }
 
      /* Gallery page */
-    #photos {
-        column-count: 3;       
-    }
+     #photos {
+         column-count: 3;
+     }
 
      /* Contact us page*/
      #contact-us {
@@ -555,45 +571,46 @@ textarea {
      }
 
      .contact-us-cover {
-        top: 50%;
-        left: 70%;     
-        
+         top: 50%;
+         left: 70%;
+
      }
 
      .contact-us-cover>h2 {
          font-size: 200%;
-         
-        
+
+
      }
 
      .contact-us-container {
-        padding: 10px, 15px;
-       /* align-items: center;
+         padding: 10px, 15px;
+         /* align-items: center;
         text-align: center;*/
-        display: flex;       
+         display: flex;
      }
 
      .address {
-        
-        width: 200px;
-        align-items: center;
-        justify-content: center;
-        margin-left: 10%;
-        margin-top: 100px;     
-       
+
+         width: 200px;
+         align-items: center;
+         justify-content: center;
+         margin-left: 10%;
+         margin-top: 100px;
+
      }
-    
-     .form {   
-        flex: 1, 1, 400px;   
-        width: 400px;
-        margin-left: 10px;           
+
+     .form {
+         flex: 1, 1, 400px;
+         width: 400px;
+         margin-left: 10px;
 
      }
 
      #contact-form {
-        width: 300px;
+         width: 300px;
      }
-/*
+
+     /*
      .text-input {       
        
         width: 100%;
@@ -602,26 +619,27 @@ textarea {
     }*/
 
      textarea {
-        background-color: transparent;
-        border-color: #fafafa;
-        width: 50%;
-        height: 100px;
+         background-color: transparent;
+         border-color: #fafafa;
+         width: 50%;
+         height: 100px;
 
      }
 
      #contact-form h3 {
-        font-size: 20px;
-        font-weight: bold;
+         font-size: 20px;
+         font-weight: bold;
      }
 
-     .text-input:hover, textarea:hover {
-        border-color: lightpink;
-    }     
+     .text-input:hover,
+     textarea:hover {
+         border-color: lightpink;
+     }
 
-    .send-button:hover {
-        background-color: #fafafa;
-        color: rgb(94, 84, 159);
-    }
+     .send-button:hover {
+         background-color: #fafafa;
+         color: rgb(94, 84, 159);
+     }
 
      #contact-recieve {
          height: 1320px;
@@ -633,37 +651,37 @@ textarea {
  }
 
  /*Media query: laptops and desktops(992px and up)*/
-@media screen and (min-width:992px) {
+ @media screen and (min-width:992px) {
 
      /* Hero */
-     #cover-text{
-        width: 600px;
-        right: 50px;
+     #cover-text {
+         width: 600px;
+         right: 50px;
      }
 
      /* Gallery page */
      #photos {
-        column-count: 4;       
-    }
+         column-count: 4;
+     }
 
-    .address {
-        
-        width: 200px;
-        align-items: center;
-        justify-content: center;
-        margin-left: 25%;
-        
-        margin-top: 100px;       
-       
+     .address {
+
+         width: 200px;
+         align-items: center;
+         justify-content: center;
+         margin-left: 25%;
+
+         margin-top: 100px;
+
      }
  }
 
  /* Media query: screen size 1200px and wider*/
  @media screen and (min-width:1200px) {
 
-    /* Hero */
-    #cover-text{       
-        right: 100px;
+     /* Hero */
+     #cover-text {
+         right: 100px;
      }
 
      .about-us-container {
@@ -690,7 +708,7 @@ textarea {
 
      }
 
-    /* .address {
+     /* .address {
         width: 200px;
         align-items: center;
         justify-content: center;
