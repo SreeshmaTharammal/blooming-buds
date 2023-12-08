@@ -177,43 +177,43 @@
  }
 
  /* Customer Story section */
- #customer-story {
+ #customer-stories {
      text-align: center;
  }
 
- .customer-story-container {
+ .customer-stories-container {
      background-color: aquamarine;
      display: flex;
      flex-wrap: wrap;
  }
 
- .customer-story-container>div {
+ .customer-stories-container>div {
      background-color: darkcyan;
      flex-basis: 200px;
      flex-grow: 1;
-     /* Create a grid of customer-story dives over the background image*/
+     /* Create a grid of customer-stories dives over the background image*/
      border: 2px solid lightpink;
  }
 
- .customer-story-img-container {
+ .customer-stories-img-container {
      display: flex;
      align-items: center;
  }
 
- .customer-story-img-container img {
+ .customer-stories-img-container img {
      width: 100px;
      height: 100px;
      /* max-width: 100%;*/
      align-items: center;
  }
 
- .customer-story-img-container h3 {
+ .customer-stories-img-container h3 {
      align-items: center;
      padding-left: 20px;
      text-transform: capitalize;
  }
 
- .customer-story-para {  
+ .customer-stories-para {  
     padding: 0 1rem;
   
 }
