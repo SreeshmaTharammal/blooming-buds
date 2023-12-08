@@ -303,13 +303,17 @@
  .meet-our-team {
      display: flex;
      flex-wrap: wrap;
-     padding: 0 1rem;
+     padding: 0 1rem;     
+     justify-content: center;
 
  }
 
- .team {
-     flex-grow: 1;
-     flex-basis: 100px;
+ .team {   
+    width: 20rem;    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
  }
 
  /* Gallery page*/
