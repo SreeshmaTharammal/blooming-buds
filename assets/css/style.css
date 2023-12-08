@@ -640,7 +640,7 @@
          border-color: #fafafa;
          width: 50%;
          height: 100px;
-
+        resize: vertical;
      }
 
      #contact-form h3 {
