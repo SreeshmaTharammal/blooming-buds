@@ -312,16 +312,20 @@
      display: flex;
      flex-wrap: wrap;
      padding: 0 1rem;     
-     justify-content: center;
-
+     justify-content:  space-around;
  }
 
  .team {   
-    width: 20rem;    
+    width: 10rem;    
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;   
+    padding-bottom: 70px;     
+ }
+
+ .team h3 {
+    padding: 0;
  }
 
  /* Gallery page*/
