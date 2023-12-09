@@ -18,7 +18,6 @@
      /* Generic project styles */
      color: black;
      font-family: 'Noto Serif Balinese', serif;
-
  }
 
  h1,
@@ -26,8 +25,7 @@
  h3 {
      font-family: 'Playfair Display', serif;
      text-transform: uppercase;
-     letter-spacing: 1px;
-     
+     letter-spacing: 1px;     
  }
 
  h2,
@@ -249,6 +247,8 @@
      height: 300px;
      position: relative;
      box-shadow: 10px 5px 5px black;
+     margin-top: 45px;
+     
  }
 
  /* About us text*/
@@ -260,8 +260,7 @@
      left: 70%;
      /* Centering About Us text both horizontally and vertically */
      transform: translate(-50%, -50%);
-     width: 80%;
-
+     width: 80%;     
  }
 
  .about-us-container {
@@ -359,7 +358,7 @@
      width: 100%;
      height: 300px;
      position: relative;
-
+    
  }
 
  #contact-us::before {
@@ -564,7 +563,7 @@
      .about-us-cover {
          height: 400px;
          width: 50%;
-         margin-top: 25px;
+         margin-top: 65px;
      }
 
      .about-us-container {
