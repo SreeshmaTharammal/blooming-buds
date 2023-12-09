@@ -27,11 +27,13 @@
      font-family: 'Playfair Display', serif;
      text-transform: uppercase;
      letter-spacing: 1px;
+     
  }
 
  h2,
  h3 {
      color: rgb(28, 26, 26);
+     padding: 2rem 0;
  }
 
 
