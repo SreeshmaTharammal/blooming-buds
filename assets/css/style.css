@@ -428,8 +428,11 @@
  }
 
  textarea {
+     background-color: transparent;
+     border-color: #fafafa;
      width: 200px;
      height: 70px;
+     resize: vertical;
  }
 
  .send-button {
@@ -655,11 +658,10 @@
     }*/
 
      textarea {
-         background-color: transparent;
          border-color: #fafafa;
          width: 50%;
          height: 100px;
-        resize: vertical;
+         resize: vertical;
      }
 
      #contact-form h3 {
