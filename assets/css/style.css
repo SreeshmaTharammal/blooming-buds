@@ -499,6 +499,14 @@
      .services-container>div {
          flex-basis: 300px;
      }
+
+     /* About us section*/
+     .about-us-cover {
+        height: 400px;
+        width: 70%;
+        margin-top: 65px;
+    }
+     
  }
 
  /* Media query: large or landscape phones(576px and up) */
@@ -559,7 +567,7 @@
          right: 50px;
      }
 
-     /* About us section*/
+     /* About us page*/
      .about-us-cover {
          height: 400px;
          width: 50%;
@@ -712,16 +720,25 @@
          right: 100px;
      }
 
+     /* About us page */
+     .about-us-cover {  
+        background-position-y: top ;      
+        height: 800px;
+        width: 50%;
+        margin-top: 65px;
+    }
+
+    .about-us-cover>h2 {
+        font-size: 300%;
+        left: 80%;
+        top: 60%;
+    }
+
      .about-us-container {
          font-size: 25px;
          display: block;
          padding: 0 9rem;
-     }
-
-     .about-us-cover>h2 {
-         font-size: 200%;
-         left: 80%;
-     }
+     }     
 
      .hr-lines:before {
          width: 160px;
