@@ -249,23 +249,29 @@
      box-shadow: 10px 5px 5px black;
      margin-top: 45px;
      
+
  }
 
  /* About us text*/
  .about-us-cover>h2 {
-     font-size: 100%;
+     font-size: 130%;
      color: white;
      position: absolute;
      top: 50%;
      left: 70%;
      /* Centering About Us text both horizontally and vertically */
      transform: translate(-50%, -50%);
-     width: 80%;     
+     width: 80%;
  }
 
  .about-us-container {
      display: block;
-     padding: 0 1rem;
+     padding: 2rem 1rem;
+     
+ }
+
+ .about-us-video {
+   /* padding: 0  10px 10px;    */
  }
 
  .span-italic {
@@ -273,7 +279,8 @@
  }
 
  video {
-     float: right;
+     float: left;     
+     padding: 0 20px 20px 10px;  
 
  }
 
@@ -515,6 +522,19 @@
      #cover-text {
          left: 10px;
      }
+
+     /* About Us page */
+     .about-us-container {
+        display: block;
+        padding: 2rem 3rem;  
+        font-size: 15px;       
+    }    
+
+     video {
+        width:100%;
+        padding-top: 20px;
+     }
+
  }
 
  /* Media query: devices with screen width between 600px and 800px (inclusive) */
@@ -527,11 +547,11 @@
 
      /* About us section*/
      .about-us-cover {
-        height: 400px;
-        width: 70%;
-        margin-top: 65px;
-    }
-     
+         height: 400px;
+         width: 70%;
+         margin-top: 65px;
+     }
+
  }
 
  /* Media query: large or landscape phones(576px and up) */
@@ -599,14 +619,19 @@
          margin-top: 65px;
      }
 
+     .about-us-cover>h2 {
+        font-size: 200%;
+    }
+
      .about-us-container {
          display: block;
-         padding: 0 6rem;
-     }
-
-     .about-us-cover>h2 {
-         font-size: 200%;
-     }
+         padding: 3rem 6rem;  
+         font-size: 20px;       
+     }    
+     
+     video {            
+       width: 400px;    
+    }
 
      .hr-lines {
          font-size: 100%;
@@ -722,7 +747,6 @@
          align-items: center;
          justify-content: center;
          margin-left: 25%;
-
          margin-top: 100px;
 
      }
@@ -737,24 +761,24 @@
      }
 
      /* About us page */
-     .about-us-cover {  
-        background-position-y: top ;      
-        height: 800px;
-        width: 50%;
-        margin-top: 65px;
-    }
+     .about-us-cover {
+         background-position-y: top;
+         height: 800px;
+         width: 50%;
+         margin-top: 65px;
+     }
 
-    .about-us-cover>h2 {
-        font-size: 300%;
-        left: 80%;
-        top: 60%;
-    }
+     .about-us-cover>h2 {
+         font-size: 300%;
+         left: 80%;
+         top: 60%;
+     }
 
      .about-us-container {
          font-size: 25px;
          display: block;
-         padding: 0 9rem;
-     }     
+         padding: 4rem 9rem;
+     }
 
      .hr-lines:before {
          width: 160px;
