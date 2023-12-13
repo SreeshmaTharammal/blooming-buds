@@ -447,12 +447,13 @@
      box-shadow: 5px 5px 5px #3a3a3a;
  }
 
+ /* Contact us recieve page*/
  #contact-recieve {
      background: url("../images/Light-Pink-Floral-Flowers-Branch-White-Wood-Wall-Custom-Photo-Background.webp") no-repeat center center/cover;
      display: block;
      position: relative;
      width: 100%;
-     height: 600px;
+     height: 1330px;;
  }
 
  .contact-recieve-container {       
@@ -640,9 +641,7 @@
      }
 
      .contact-us-container {
-         padding: 10px, 15px;
-         /* align-items: center;
-        text-align: center;*/
+         padding: 10px, 15px;         
          display: flex;
      }
 
@@ -665,15 +664,7 @@
 
      #contact-form {
          width: 300px;
-     }
-
-     /*
-     .text-input {       
-       
-        width: 100%;
-        
-        
-    }*/
+     }  
 
      textarea {
          border-color: #fafafa;
@@ -693,17 +684,14 @@
      }
 
      .send-button:hover {
-         background-color: #fafafa;
+         background-color: goldenrod;
          color: rgb(94, 84, 159);
      }
-
-     #contact-recieve {
-         height: 1320px;
-     }
-
+     
      .contact-recieve-container p:first-child {
          font-size: 40px;
      }
+     
  }
 
  /*Media query: laptops and desktops(992px and up)*/
