@@ -448,23 +448,41 @@
  }
 
  #contact-recieve {
-     background: url("../images/stock-photo-fruit-tree-flowers-on-the-white-wooden-background.jpg") no-repeat center center/cover;
+     background: url("../images/Light-Pink-Floral-Flowers-Branch-White-Wood-Wall-Custom-Photo-Background.webp") no-repeat center center/cover;
      display: block;
      position: relative;
      width: 100%;
      height: 600px;
  }
 
- .contact-recieve-container {
+ .contact-recieve-container {       
      position: absolute;
      top: 30%;
      left: 20%;
-
+     display: flex;
+     flex-direction: column;
  }
 
  .contact-recieve-container p:first-child {
      font-size: 20px;
      font-weight: bold;
+ }
+
+ .back-to-Home-button {
+    background-color: rgb(94, 84, 159);
+    color: goldenrod;
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px 0px rgb(113, 103, 182);
+    
+ }
+
+ .back-to-Home-button:hover {
+    background-color: blueviolet;
  }
 
  /* Footer */
