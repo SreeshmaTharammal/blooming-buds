@@ -754,6 +754,12 @@
 
      }
 
+    /* Contact Us page*/
+     .send-button:hover {
+        background-color: purple; 
+        color: goldenrod;     
+    }
+
      /* Contact recieve page*/
      .back-to-home-button:hover {
         background-color: purple;
