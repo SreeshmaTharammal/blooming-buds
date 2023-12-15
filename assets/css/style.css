@@ -475,7 +475,7 @@
      font-weight: bold;
  }
 
- .back-to-Home-button {
+ .back-to-home-button {
      background-color: rgb(94, 84, 159);
      color: goldenrod;
      width: 150px;
@@ -485,12 +485,7 @@
      border-radius: 30px;
      margin-top: 20px;
      box-shadow: 5px 5px 10px 0px rgb(113, 103, 182);
-
- }
-
- .back-to-home-button:hover {
-     background-color: blueviolet;
- }
+ } 
 
  /* Footer */
  #social-networks {
@@ -758,6 +753,11 @@
          margin-top: 100px;
 
      }
+
+     /* Contact recieve page*/
+     .back-to-home-button:hover {
+        background-color: purple;
+    }
 
      /* Footer */
      #social-networks i:hover {
