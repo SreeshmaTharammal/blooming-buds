@@ -508,10 +508,6 @@
      color: lightpink;
  }
 
- #social-networks i:hover {
-     transform: scale(1.5);
-     color: purple;
- }
 
  /* Media query: devices with screen width between  280px and  767px (inclusive) */
  @media only screen and (min-width: 280px) and (max-width: 767px) {
@@ -762,6 +758,12 @@
          margin-top: 100px;
 
      }
+
+     /* Footer */
+     #social-networks i:hover {
+        transform: scale(1.5);
+        color: purple;
+    }
  }
 
  /* Media query: screen size 1200px and wider*/
