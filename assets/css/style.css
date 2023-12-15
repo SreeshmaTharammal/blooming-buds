@@ -718,15 +718,29 @@
          background-color: goldenrod;
          color: rgb(94, 84, 159);
      }
-     
+
      .contact-recieve-container p:first-child {
          font-size: 40px;
      }
-     
+
+     /* footer */
+     #social-networks i {
+        font-size: 250%;        
+     }
+
  }
 
  /*Media query: laptops and desktops(992px and up)*/
  @media screen and (min-width:992px) {
+    /* Header */
+    #logo {
+        font-size: 400%;        
+    }
+
+    #header-menu>li {
+        padding-left: 2rem;
+        font-size: 25px;
+    }
 
      /* Hero */
      #cover-text {
