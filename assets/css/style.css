@@ -345,10 +345,12 @@
 
  #photos {
      line-height: 0;
+     padding: 50px;
  }
 
  #photos img {
      width: 100%;
+     height: auto;
      line-height: 2em;
  }
 
@@ -636,8 +638,8 @@
 
      /* Gallery page */
      #gallery>h2 {
-        font-size: 40px;
-        padding-top: 60px;
+         font-size: 40px;
+         padding-top: 60px;
      }
 
      #photos {
