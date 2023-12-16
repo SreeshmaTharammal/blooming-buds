@@ -571,25 +571,25 @@
      }
 
      nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
+         display: block;
+         position: relative;
+         box-shadow: none;
+         width: fit-content;
+         padding-right: 1rem;
+     }
 
-    #header-menu {
-        display: flex;
-    }
+     #header-menu {
+         display: flex;
+     }
 
-    #header-menu>li {
-        padding-left: 1rem;
-        font-size: 20px;
-    }
+     #header-menu>li {
+         padding-left: 1rem;
+         font-size: 20px;
+     }
 
-    .nav-toggle-label {
-        display: none;
-    }
+     .nav-toggle-label {
+         display: none;
+     }
 
      #header-menu a:hover {
          box-shadow: 0 2px 4px lightpink;
@@ -657,13 +657,11 @@
      }
 
      .contact-us-cover>h2 {
-         font-size: 200%;
-
-
+         font-size: 100%;
      }
 
      .contact-us-container {
-         padding: 10px, 15px;         
+         padding: 10px, 15px;
          display: flex;
      }
 
@@ -716,27 +714,33 @@
 
      /* footer */
      #social-networks i {
-        font-size: 250%;        
+         font-size: 250%;
      }
 
  }
 
  /*Media query: laptops and desktops(992px and up)*/
  @media screen and (min-width:992px) {
-    /* Header */
-    #logo {
-        font-size: 400%;        
-    }
 
-    #header-menu>li {
-        padding-left: 2rem;
-        font-size: 25px;
-    }
+     /* Header */
+     #logo {
+         font-size: 400%;
+     }
+
+     #header-menu>li {
+         padding-left: 2rem;
+         font-size: 25px;
+     }
 
      /* Hero */
      #cover-text {
          width: 600px;
          right: 50px;
+     }
+
+     /* Contact us page*/
+     .contact-us-cover>h2 {
+         font-size: 150%;
      }
 
      /* Gallery page */
@@ -754,22 +758,22 @@
 
      }
 
-    /* Contact Us page*/
+     /* Contact Us page*/
      .send-button:hover {
-        background-color: purple; 
-        color: goldenrod;     
-    }
+         background-color: purple;
+         color: goldenrod;
+     }
 
      /* Contact recieve page*/
      .back-to-home-button:hover {
-        background-color: purple;
-    }
+         background-color: purple;
+     }
 
      /* Footer */
      #social-networks i:hover {
-        transform: scale(1.5);
-        color: purple;
-    }
+         transform: scale(1.5);
+         color: purple;
+     }
  }
 
  /* Media query: screen size 1200px and wider*/
@@ -789,6 +793,11 @@
      .customer-stories-img-container {
          height: 650px;
 
+     }
+
+     /* Contact us page*/
+     .contact-us-cover>h2 {
+         font-size: 200%;
      }
 
      /* About us page */
