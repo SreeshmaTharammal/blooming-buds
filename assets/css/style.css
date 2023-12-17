@@ -130,14 +130,14 @@
 
  #cover-text>h3 {
      font-style: italic;
-     text-transform: capitalize;     
+     text-transform: capitalize;
      padding-top: 0;
 
  }
 
  /* Description section */
  .description-container {
-     background: url("../images/tiny-flowers-.avif") no-repeat center center/cover;
+     background: url("../images/tiny-flowers.jpg") no-repeat center center/cover;
      background-color: bisque;
      padding: 1rem 2rem;
      display: block;
@@ -239,7 +239,7 @@
  /* About Us page */
  /* About us image*/
  .about-us-cover {
-     background: url("../images/woman-working-flower-shop-with-bouquet-flowers.avif") no-repeat center center/cover;
+     background: url("../images/woman-working-flower-shop-with-bouquet-flowers.jpg") no-repeat center center/cover;
      display: block;
      margin-left: auto;
      margin-right: auto;
