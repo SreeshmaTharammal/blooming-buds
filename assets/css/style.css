@@ -671,7 +671,7 @@
      }
 
      .contact-us-container {
-         padding: 10px, 15px;
+         padding: 10px 15px;
          display: flex;
      }
 
@@ -686,7 +686,7 @@
      }
 
      .form {
-         flex: 1, 1, 400px;
+         flex: 1 1 400px;
          width: 400px;
          margin-left: 10px;
 
