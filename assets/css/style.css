@@ -275,11 +275,14 @@
  }
 
  video {
-     float: left;     
-     padding: 0 20px 20px 10px;  
+     float: left;
+     padding: 0 20px 20px 10px;
 
  }
 
+
+/* Horizontal lines before and after 'Meet our team'.
+ Inspired from https://unclebigbay.com/how-to-add-horizontal-lines-before-and-after-a-text-in-html */
  .hr-lines {
      font-size: 100%;
      position: relative;
@@ -288,6 +291,7 @@
      text-align: center;
  }
 
+ /* Left side line */
  .hr-lines:before {
      content: " ";
      height: 2px;
@@ -299,6 +303,7 @@
      left: 0px;
  }
 
+ /* Right side line */
  .hr-lines:after {
      content: " ";
      height: 2px;
@@ -482,12 +487,15 @@
      color: goldenrod;
      width: 150px;
      height: 50px;
+     text-align: center;
+     padding: 10px;
+     text-decoration: none;
      font-size: large;
      font-weight: bold;
      border-radius: 30px;
      margin-top: 20px;
      box-shadow: 5px 5px 10px 0px rgb(113, 103, 182);
- } 
+ }
 
  /* Footer */
  #social-networks {
