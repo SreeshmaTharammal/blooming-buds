@@ -60,9 +60,9 @@ The site can be accessed by this [link](https://sreeshmatharammal.github.io/bloo
 
 - Represent: 
 
-        * the main idea of the company.
-        * Emphasize the strong points of the company.
-        * Shows feedback from satisfied clients.    
+    * the main idea of the company.
+    * Emphasize the strong points of the company.
+    * Shows feedback from satisfied clients.    
 
     ![Home Page](documentation/home_page.png)
 
