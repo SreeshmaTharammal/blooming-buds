@@ -466,7 +466,7 @@
      position: relative;
      width: 100%;
      height: 1330px;
-     ;
+     
  }
 
  .contact-recieve-container {
@@ -792,17 +792,11 @@
      /* Hero */
      #cover-text {
          right: 100px;
-     }
-
-     /* Our Services section */
-     .services-img-container {
-         height: 450px;
-     }
-
+     }    
+     
      /* Customer Stories section */
      .customer-stories-img-container {
          height: 650px;
-
      }
 
      /* Contact us page*/
@@ -849,18 +843,38 @@
          padding-top: 70px;
      }
 
-     /* Media query: screen size 2000px and wider*/
-     @media screen and (min-width:2000px) {
-
-         /* Our Services section */
-         .services-img-container {
-             height: 600px;
-         }
-
-         /* Customer Stories section */
-         .customer-stories-img-container {
-             height: 800px;
-         }
+     #photos {
+         padding: 100px;
      }
 
  }
+
+ /* Media query: screen size 2000px and wider*/
+ @media screen and (min-width:1300px) {
+
+     /* Our Services section */
+     .services-img-container {
+         height: 400px;
+     }
+
+     /* Customer Stories section */
+     .customer-stories-img-container {
+         height: 800px;
+     }
+ }
+
+ /* Media query: screen size 2000px and wider*/
+ @media screen and (min-width:2000px) {
+
+     /* Our Services section */
+     .services-img-container {
+         height: 600px;
+     }
+
+     /* Customer Stories section */
+     .customer-stories-img-container {
+         height: 800px;
+     }
+ }
+
+ 
