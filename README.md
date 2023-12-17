@@ -4,7 +4,7 @@ Welcome to Bloomimg Buds Bouquet shop! From this wesite users get information ab
 
 The site can be accessed by this [link](https://sreeshmatharammal.github.io/blooming-buds/index.html)
 
-![Responsive Mockup](documentation/resposive_mockup.png)
+![Responsive Mockup](documentation/responsive_mockup.png)
 
 ---
 ## User Stories
