@@ -140,13 +140,31 @@
      background: url("../images/tiny-flowers.jpg") no-repeat center center/cover;
      background-color: bisque;
      padding: 1rem 2rem;
-     display: block;
-     font-size: 20px;
+     
+     font-size: 30px;
      font-style: italic;
-     font-weight: 500;
+     font-weight: 800;
+     font-family: 'Playfair Display', serif;
+     color: purple;
+     display: flex;     
+     align-items: center;
+    justify-content: center;
+ }
+
+ .description {    
+    text-align: center;
+    max-width: 1500px;
  }
 
  /* Our Services section */
+ #services {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
  #services>h2 {
      text-align: center;
  }
@@ -155,6 +173,8 @@
      background: url("../images/light-pink-rose-petals.jpg");
      display: flex;
      flex-wrap: wrap;
+     width: 100%;
+     max-width: 1500px;
  }
 
  .services-container>div {
@@ -175,6 +195,7 @@
  .services-img-container {
      width: 100%;
      display: flex;
+     align-items: center;
      height: 300px;
  }
 
@@ -850,12 +871,7 @@
  }
 
  /* Media query: screen size 2000px and wider*/
- @media screen and (min-width:1300px) {
-
-     /* Our Services section */
-     .services-img-container {
-         height: 400px;
-     }
+ @media screen and (min-width:1300px) {     
 
      /* Customer Stories section */
      .customer-stories-img-container {
@@ -864,12 +880,7 @@
  }
 
  /* Media query: screen size 2000px and wider*/
- @media screen and (min-width:2000px) {
-
-     /* Our Services section */
-     .services-img-container {
-         height: 600px;
-     }
+ @media screen and (min-width:2000px) {     
 
      /* Customer Stories section */
      .customer-stories-img-container {
