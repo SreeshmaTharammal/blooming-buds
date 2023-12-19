@@ -401,6 +401,17 @@
  }
 
 
+ .main-contact {
+     background-color: lightpink;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     flex: 1 0 auto;
+     /* Make main element take up any surplus space to push footer down*/
+     margin-top: 45px;
+ }
 
  #contact-us {
      background: url("../images/contact-us-image.jpg") no-repeat center center/cover;
