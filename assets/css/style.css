@@ -203,29 +203,39 @@
      object-fit: cover;
      width: 100%;
      display: block;
+     align-items: center;
      height: 100%;
  }
 
  .services-zoom-on-hover:hover {
-     transform: scale(1.02);
-     transition: transform 0.2s ease;
+     transform: scale(1.05);
+     transition: transform 0.3s ease;
  }
 
  /* Customer Stories section */
  #customer-stories {
-     text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
  }
 
- .customer-stories-container {
-     background-color: aquamarine;
+ .customer-stories-container {    
      display: flex;
      flex-wrap: wrap;
+     width: 100%;
+     max-width: 1500px;
+     
  }
 
  .customer-stories-container>div {
      background-color: darkcyan;
      flex-basis: 200px;
      flex-grow: 1;
+     border-radius: 10%;
+     margin-bottom: 20px;
      /* Create a grid of customer-stories dives over the background image*/
      border: 2px solid lightpink;
  }
@@ -234,7 +244,8 @@
      display: flex;
      align-items: center;
      width: 100%;
-     height: 400px;
+     height: 400px;    
+   
  }
 
  .customer-stories-img-container img {
@@ -244,6 +255,7 @@
      display: block;
      align-items: center;
      padding-bottom: 20px;
+     border-radius: 10%;  
  }
 
  .customer-stories-container h3 {
@@ -254,7 +266,6 @@
 
  .customer-stories-para {
      padding: 2rem 1rem 4rem;
-
  }
 
  /* About Us page */
@@ -817,12 +828,7 @@
      /* Hero */
      #cover-text {
          right: 100px;
-     }    
-     
-     /* Customer Stories section */
-     .customer-stories-img-container {
-         height: 650px;
-     }
+     }            
 
      /* Contact us page*/
      .contact-us-cover>h2 {
@@ -873,23 +879,6 @@
      }
 
  }
-
- /* Media query: screen size 2000px and wider*/
- @media screen and (min-width:1300px) {     
-
-     /* Customer Stories section */
-     .customer-stories-img-container {
-         height: 800px;
-     }
- }
-
- /* Media query: screen size 2000px and wider*/
- @media screen and (min-width:2000px) {     
-
-     /* Customer Stories section */
-     .customer-stories-img-container {
-         height: 800px;
-     }
- }
+ 
 
  
