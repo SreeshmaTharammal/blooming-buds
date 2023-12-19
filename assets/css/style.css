@@ -752,6 +752,7 @@
      .send-button:hover {
          background-color: goldenrod;
          color: rgb(94, 84, 159);
+         cursor: pointer;
      }
 
      .contact-recieve-container p:first-child {
