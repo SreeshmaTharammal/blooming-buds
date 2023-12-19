@@ -721,19 +721,18 @@
      }
 
      .contact-us-container {
-         padding: 10px 15px;
+
          display: flex;
+         width: 100%;
+         align-items: center;
+         justify-content: center;
+         max-width: 600px;
      }
 
      .address {
-
          width: 200px;
-         align-items: center;
-         justify-content: center;
-         margin-left: 10%;
-         margin-top: 100px;
-
-     }
+         align-self: flex-start; 
+    }
 
      .form {
          flex: 1 1 400px;
@@ -744,7 +743,7 @@
 
      #contact-form {
          width: 300px;
-     }  
+     }
 
      textarea {
          border-color: #fafafa;
@@ -810,13 +809,11 @@
      }
 
      .address {
-
          width: 200px;
-         align-items: center;
+         align-self: flex-start;        
          justify-content: center;
          margin-left: 25%;
          margin-top: 100px;
-
      }
 
      /* Contact Us page*/
@@ -843,7 +840,7 @@
      /* Hero */
      #cover-text {
          right: 100px;
-     }            
+     }
 
      /* Contact us page*/
      .contact-us-cover>h2 {
