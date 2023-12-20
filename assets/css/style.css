@@ -176,7 +176,7 @@
      display: flex;
      flex-wrap: wrap;
      width: 100%;
-     max-width: 2000px;
+     max-width: 1500px;
  }
 
  .services-container>div {
@@ -228,7 +228,7 @@
      display: flex;
      flex-wrap: wrap;
      width: 100%;
-     max-width: 2000px;
+     max-width: 1500px;
  }
 
  .customer-stories-container>div {
