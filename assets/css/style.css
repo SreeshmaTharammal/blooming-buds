@@ -372,20 +372,19 @@
 
  /* Gallery page*/
  .main-gallery {
-     /* Make main element take up any surplus space to push footer down*/
-     margin-top: 45px;
+    /*  Make main element take up any surplus space to push footer down*/
+     margin-top: 40px;
  }
 
  #gallery>h2 {
      font-size: 20px;
      text-transform: capitalize;
-     text-align: center;
-     padding-top: 40px;
+     text-align: center;  
  }
 
  #photos {
      line-height: 0;
-     padding: 50px;
+     padding: 0 50px 50px;
  }
 
  #photos img {
@@ -393,13 +392,6 @@
      height: auto;
      line-height: 2em;
  }
-
- /* Apply a scale transformation to zoom the size of the element on hover */
- .zoom-on-hover:hover {
-     transform: scale(1.2);
-     transition: transform 0.3s ease;
- }
-
 
  .main-contact {
      background-color: lightpink;
@@ -694,14 +686,19 @@
          width: 160px;
      }
 
-     /* Gallery page */
+     /* Gallery page */    
      #gallery>h2 {
-         font-size: 40px;
-         padding-top: 60px;
+         font-size: 40px;         
      }
 
      #photos {
          column-count: 3;
+     }
+
+     /* Apply a scale transformation to zoom the size of the element on hover */
+     .zoom-on-hover:hover {
+         transform: scale(1.2);
+         transition: transform 0.3s ease;
      }
 
      /* Contact us page*/
