@@ -721,18 +721,17 @@
      }
 
      .contact-us-container {
-
          display: flex;
          width: 100%;
          align-items: center;
          justify-content: center;
-         max-width: 600px;
+         max-width: 1000px;
      }
 
      .address {
          width: 200px;
-         align-self: flex-start; 
-    }
+         align-self: flex-start;
+     }
 
      .form {
          flex: 1 1 400px;
@@ -798,25 +797,27 @@
          right: 50px;
      }
 
-     /* Contact us page*/
-     .contact-us-cover>h2 {
-         font-size: 150%;
-     }
-
      /* Gallery page */
      #photos {
          column-count: 4;
      }
 
-     .address {
-         width: 200px;
-         align-self: flex-start;        
-         justify-content: center;
-         margin-left: 25%;
-         margin-top: 100px;
+     
+     /* Contact Us page*/
+
+     .contact-us-cover>h2 {
+         font-size: 150%;
      }
 
-     /* Contact Us page*/
+     .address {
+        width: 200px;
+        align-self: flex-start;
+        justify-content: center;
+        margin-left: 25%;
+        margin-top: 100px;
+    }
+
+
      .send-button:hover {
          background-color: purple;
          color: goldenrod;
@@ -840,11 +841,6 @@
      /* Hero */
      #cover-text {
          right: 100px;
-     }
-
-     /* Contact us page*/
-     .contact-us-cover>h2 {
-         font-size: 200%;
      }
 
      /* About us page */
@@ -890,7 +886,9 @@
          padding: 100px;
      }
 
- }
- 
+     /* Contact us page*/
+     .contact-us-cover>h2 {
+         font-size: 200%;
+     }
 
- 
+ }
