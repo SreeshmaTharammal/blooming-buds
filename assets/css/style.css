@@ -686,13 +686,15 @@
          width: 160px;
      }
 
-     /* Gallery page */    
+     /* Gallery page */
      #gallery>h2 {
-         font-size: 40px;         
+         align-self: center;
+         font-size: 40px;        
      }
 
      #photos {
          column-count: 3;
+         padding: 80px;
      }
 
      /* Apply a scale transformation to zoom the size of the element on hover */
@@ -881,7 +883,7 @@
      }
 
      #photos {
-         padding: 100px;
+         padding: 0 100px 100px;
      }
 
      /* Contact us page*/
