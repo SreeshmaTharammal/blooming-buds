@@ -25,19 +25,19 @@ blooming buds
     <div style="display: flex; justify-content: space-around;">
       <div>
         <h4>Home Page</h4>
-        <img src="documentation/galaxys9/homepage.jpg" alt="Galaxy S9" style="width:50%; height:auto%;">
+        <img src="documentation/galaxys9/home_page.jpg" alt="Galaxy S9" style="width:50%; height:auto%;">
       </div>
       <div>
         <h4>About Us</h4>
-        <img src="documentation/galaxys9/aboutus.jpg" alt="Galaxy S9" style="width:50%; height:auto;">
+        <img src="documentation/galaxys9/about_us_page.jpg" alt="Galaxy S9" style="width:50%; height:auto;">
       </div>
       <div>
         <h4>Gallery</h4>
-        <img src="documentation/galaxys9/gallery.jpg" alt="Galaxy S9" style="width:50%; height:auto;">
+        <img src="documentation/galaxys9/gallery_page.jpg" alt="Galaxy S9" style="width:50%; height:auto;">
       </div>
       <div>
         <h4>Contact Us</h4>
-        <img src="documentation/galaxys9/contactus.jpg" alt="Galaxy S9" style="width:50%; height:auto;">
+        <img src="documentation/galaxys9/contact_us_page.jpg" alt="Galaxy S9" style="width:50%; height:auto;">
       </div>
     </div>
     
@@ -46,19 +46,19 @@ blooming buds
     <div style="display: flex; justify-content: space-around;">
       <div>
         <h4>Home Page</h4>
-        <img src="documentation/galaxys20ultra/homepage.jpg" alt="Galaxy S20 Ultra" style="width:50%; height:auto%;">
+        <img src="documentation/galaxys20ultra/home_page.jpg" alt="Galaxy S20 Ultra" style="width:50%; height:auto%;">
       </div>
       <div>
         <h4>About Us</h4>
-        <img src="documentation/galaxys20ultra/aboutus.jpg" alt="Galaxy S20 Ultra" style="width:50%; height:auto;">
+        <img src="documentation/galaxys20ultra/about_us_page.jpg" alt="Galaxy S20 Ultra" style="width:50%; height:auto;">
       </div>
       <div>
         <h4>Gallery</h4>
-        <img src="documentation/galaxys20ultra/gallery.jpg" alt="Galaxy S20 Ultra" style="width:50%; height:auto;">
+        <img src="documentation/galaxys20ultra/gallery_page.jpg" alt="Galaxy S20 Ultra" style="width:50%; height:auto;">
       </div>
       <div>
         <h4>Contact Us</h4>
-        <img src="documentation/galaxys20ultra/contactus.jpg" alt="Galaxy S20 Ultra" style="width:50%; height:auto;">
+        <img src="documentation/galaxys20ultra/contact_us_page.jpg" alt="Galaxy S20 Ultra" style="width:50%; height:auto;">
       </div>
     </div>
 
@@ -67,19 +67,19 @@ blooming buds
     <div style="display: flex; justify-content: space-around;">
       <div>
         <h4>Home Page</h4>
-        <img src="documentation/ipadpro/homepage.jpg" alt="IPad Pro" style="width:50%; height:auto%;">
+        <img src="documentation/ipadpro/home_page.jpg" alt="IPad Pro" style="width:50%; height:auto%;">
       </div>
       <div>
         <h4>About Us</h4>
-        <img src="documentation/ipadpro/aboutus.jpg" alt="IPad Pro" style="width:50%; height:auto;">
+        <img src="documentation/ipadpro/about_us_page.jpg" alt="IPad Pro" style="width:50%; height:auto;">
       </div>
       <div>
         <h4>Gallery</h4>
-        <img src="documentation/ipadpro/gallery.jpg" alt="IPad Pro" style="width:50%; height:auto;">
+        <img src="documentation/ipadpro/gallery_page.jpg" alt="IPad Pro" style="width:50%; height:auto;">
       </div>
       <div>
         <h4>Contact Us</h4>
-        <img src="documentation/ipadpro/contactus.jpg" alt="IPad Pro" style="width:50%; height:auto;">
+        <img src="documentation/ipadpro/contact_us_page.jpg" alt="IPad Pro" style="width:50%; height:auto;">
       </div>
     </div>
 
@@ -88,19 +88,19 @@ blooming buds
     <div style="display: flex; justify-content: space-around;">
       <div>
         <h4>Home Page</h4>
-        <img src="documentation/iphonex/homepage.jpg" alt="IPhone X" style="width:50%; height:auto%;">
+        <img src="documentation/iphonex/home_page.jpg" alt="IPhone X" style="width:50%; height:auto%;">
       </div>
       <div>
         <h4>About Us</h4>
-        <img src="documentation/iphonex/aboutus.jpg" alt="IPhone X" style="width:50%; height:auto;">
+        <img src="documentation/iphonex/about_us_page.jpg" alt="IPhone X" style="width:50%; height:auto;">
       </div>
       <div>
         <h4>Gallery</h4>
-        <img src="documentation/iphonex/gallery.jpg" alt="IPhone X" style="width:50%; height:auto;">
+        <img src="documentation/iphonex/gallery_page.jpg" alt="IPhone X" style="width:50%; height:auto;">
       </div>
       <div>
         <h4>Contact Us</h4>
-        <img src="documentation/iphonex/contactus.jpg" alt="IPhone X" style="width:50%; height:auto;">
+        <img src="documentation/iphonex/contact_us_page.jpg" alt="IPhone X" style="width:50%; height:auto;">
       </div>
     </div>
 
@@ -109,19 +109,19 @@ blooming buds
     <div style="display: flex; justify-content: space-around;">
       <div>
         <h4>Home Page</h4>
-        <img src="documentation/laptop1024/homepage.jpg" alt="Laptop 1024" style="width:50%; height:auto%;">
+        <img src="documentation/laptop1024/home_page.jpg" alt="Laptop 1024" style="width:50%; height:auto%;">
       </div>
       <div>
         <h4>About Us</h4>
-        <img src="documentation/laptop1024/aboutus.jpg" alt="Laptop 1024" style="width:50%; height:auto;">
+        <img src="documentation/laptop1024/about_us_page.jpg" alt="Laptop 1024" style="width:50%; height:auto;">
       </div>
       <div>
         <h4>Gallery</h4>
-        <img src="documentation/laptop1024/gallery.jpg" alt="Laptop 1024" style="width:50%; height:auto;">
+        <img src="documentation/laptop1024/gallery_page.jpg" alt="Laptop 1024" style="width:50%; height:auto;">
       </div>
       <div>
         <h4>Contact Us</h4>
-        <img src="documentation/laptop1024/contactus.jpg" alt="Laptop 1024" style="width:50%; height:auto;">
+        <img src="documentation/laptop1024/contact_us_page.jpg" alt="Laptop 1024" style="width:50%; height:auto;">
       </div>
     </div>
 
@@ -130,19 +130,19 @@ blooming buds
     <div style="display: flex; justify-content: space-around;">
       <div>
         <h4>Home Page</h4>
-        <img src="documentation/laptop1440/homepage.jpg" alt="Laptop 1440" style="width:50%; height:auto%;">
+        <img src="documentation/laptop1440/home_page.jpg" alt="Laptop 1440" style="width:50%; height:auto%;">
       </div>
       <div>
         <h4>About Us</h4>
-        <img src="documentation/laptop1440/aboutus.jpg" alt="Laptop 1440" style="width:50%; height:auto;">
+        <img src="documentation/laptop1440/about_us_page.jpg" alt="Laptop 1440" style="width:50%; height:auto;">
       </div>
       <div>
         <h4>Gallery</h4>
-        <img src="documentation/laptop1440/gallery.jpg" alt="Laptop 1440" style="width:50%; height:auto;">
+        <img src="documentation/laptop1440/gallery_page.jpg" alt="Laptop 1440" style="width:50%; height:auto;">
       </div>
       <div>
         <h4>Contact Us</h4>
-        <img src="documentation/laptop1440/contactus.jpg" alt="Laptop 1440" style="width:50%; height:auto;">
+        <img src="documentation/laptop1440/contact_us_page.jpg" alt="Laptop 1440" style="width:50%; height:auto;">
       </div>
     </div>
 
@@ -151,19 +151,19 @@ blooming buds
     <div style="display: flex; justify-content: space-around;">
       <div>
         <h4>Home Page</h4>
-        <img src="documentation/laptop2560/homepage.jpg" alt="Laptop 2560" style="width:50%; height:auto%;">
+        <img src="documentation/laptop2560/home_page.jpg" alt="Laptop 2560" style="width:50%; height:auto%;">
       </div>
       <div>
         <h4>About Us</h4>
-        <img src="documentation/laptop2560/aboutus.jpg" alt="Laptop 2560" style="width:50%; height:auto;">
+        <img src="documentation/laptop2560/about_us_page.jpg" alt="Laptop 2560" style="width:50%; height:auto;">
       </div>
       <div>
         <h4>Gallery</h4>
-        <img src="documentation/laptop2560/gallery.jpg" alt="Laptop 2560" style="width:50%; height:auto;">
+        <img src="documentation/laptop2560/gallery_page.jpg" alt="Laptop 2560" style="width:50%; height:auto;">
       </div>
       <div>
         <h4>Contact Us</h4>
-        <img src="documentation/laptop2560/contactus.jpg" alt="Laptop 2560" style="width:50%; height:auto;">
+        <img src="documentation/laptop2560/contact_us_page.jpg" alt="Laptop 2560" style="width:50%; height:auto;">
       </div>
     </div>
 
@@ -175,7 +175,7 @@ blooming buds
       <div>
         <h4>Desktop 1024x600</h4>
         <video width="320" height="240" controls>
-          <source src="documentation/desktop_1024_600.mp4" type="video/mp4">
+          <source src="documentation/desktop_1024_600.gif" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
@@ -399,6 +399,11 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 
     ![Home Page HTML Validator](documentation/w3_validator_home_page.png)
+
+  #### About Us Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+    ![Contact Page HTML Validator](documentation/w3_validator_about_us_page.png)
     
   #### Gallery Page
     - No errors or warnings were found when passing through the official W3C validator.
@@ -408,25 +413,18 @@ In order to confirm the correct functionality, responsiveness, and appearance:
   #### Contact Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Contact Page HTML Validator](documentation/w3_validator_contact_page.png)
+    ![Contact Page HTML Validator](documentation/w3_validator_contact_us_page.png)
 
   #### Response Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Response Page HTML Validator](documentation/w3_validator_response_page.png)
+    ![Response Page HTML Validator](documentation/w3_validator_contact_recieve_page.png)
     
 + ### CSS
-  No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
+  No errors or warnings were found when passing through the official W3C (Jigsaw) validator except: 
+    - One warning regarding import statement  "Imported style sheets are not checked in direct input and file upload modes"
     
-    - 3 errors regarding *all: unset*: "Property all doesn't exist. The closest matching property name is fill : unset".
-
-    - Even though this error is present, I don't believe it is 100% accurate, and more information can be found [here](https://developer.mozilla.org/en-US/docs/Web/CSS/all)
-
-  ![CSS Validator errors](documentation/w3_validator_css_errors.png)
-  
-    - 43 warning regarding the use of *:root variables*: "Due to their dynamic nature, CSS variables are currently not statically checked".
-    
-  ![CSS Validator errors](documentation/w3_validator_css_warnings.png)
+  ![CSS Validator Results](documentation/w3_validator_css_results.png)
 
 
 + ## LightHouse report
@@ -443,11 +441,11 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
   ### Contact page
 
-  ![Contact Page Lighthouse](documentation/lighthouse_contact_page.png)
+  ![Contact Page Lighthouse](documentation/lighthouse_contact_us_page.png)
 
   ### Response page
 
-  ![Response Page Lighthouse](documentation/lighthouse_response_page.png)
+  ![Response Page Lighthouse](documentation/lighthouse_contact_receive_page.png)
 
 ---
 ​
