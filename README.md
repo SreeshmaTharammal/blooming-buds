@@ -6,7 +6,43 @@ The site can be accessed by this [link](https://sreeshmatharammal.github.io/bloo
 
 ![Responsive Mockup](documentation/responsive_mockup.png)
 
+# Table of Contents
+
+- [UX](#ux "UX")  
+  - [User Stories](#user-stories "User Stories")
+  - [Site Owners Goals](#site-owners-goals)
+  - [User Requirements and Expectations](#user-requirements-and-expectations)
+    - [Requirements](#requirements)
+    - [Expectations](#expectations)
+  - [Design Choices](#design-choices)
+    - [Fonts](#fonts)
+    - [Icons](#icons)
+    - [Colors](#colors)
+    - [Structure](#structure)
+- [Wireframes](#wireframes)
+  - [Features](#features)
+    - [Navigation Bar](#navigation-bar)
+    - [Welcome Section](#welcome-section)
+    - [History Section](#history-section)
+    - [Culture Section](#culture-section)
+    - [Attraction Section](#attraction-section)
+    - [Cuisine Section](#cuisine-section)
+    - [Contact Section](#contact-section)
+    - [Footer](#footer)
+    - [Thank You Page](#thank-you-page-form-submision-page)
+    - [Features to be implemented](#features-to-be-implemented)
+- [Technologies used](#technologies-used)
+  - [Languages](#languages)
+  - [Tools](#tools)
+- [Testing](#testing)
+  - [Unfixed Bugs](#unfixed-bugs)
+- [Deployment](#deployment)
+- [Refactor](#refactor)
+- [Credits](#credits)
+
 ---
+# UX
+
 ## User Stories
 
 ### First Time Visitor Goals:
@@ -31,10 +67,10 @@ The site can be accessed by this [link](https://sreeshmatharammal.github.io/bloo
     - Positioned at the top of the page.
     - Contains logo of the company on the left side.
     - Contains navigation links on the right side:
-        * HOME - 
-        * ABOUT US - 
-        * GALLERY - 
-        * CONTACT US - 
+        * HOME - leads to the home page where users can get information about the company, avilable services and some feeback from customers.
+        * ABOUT US - leads to the about us page where users can learn about the company and its history.
+        * GALLERY - leads to the gallery page where users can see beautiful bouquets and some moments captured through the artistry of the company.
+        * CONTACT US -  leads to the contact form page where users can fill out the form in order to get in touch with the company.
     - The links have animated hover effect.
     - The navigation is clear and easy to understand for the user.
     ![NavBar desktop](documentation/navbar_desktop.png)
@@ -74,8 +110,8 @@ The site can be accessed by this [link](https://sreeshmatharammal.github.io/bloo
 
 - Hero section have the block section below the image that consist:
 
-        * The name of the company.
-        * Short description of the company's philosophy.
+    * The name of the company.
+    * Short description of the company's philosophy.
     
     ![Hero Section](documentation/hero_section.png)
 
@@ -89,7 +125,7 @@ The site can be accessed by this [link](https://sreeshmatharammal.github.io/bloo
 
     - Attracts viewers to include this company in their celebration.
 
-    ![Services Section](documentation/main_cons.png)
+    ![Services Section](documentation/services.png)
 
  ---
  + #### Testimonials Section
@@ -118,11 +154,13 @@ The site can be accessed by this [link](https://sreeshmatharammal.github.io/bloo
 
     - It has a video showing two working florists working in the company.
 
-    - The video play automatically when reach the About Us page.
+    - The video play automatically when reach the About Us page. Video is muted.
+
+    - This page contain name of individuals behind this company.
 
     - It has a footer identical to the home page's footer.
 
-    ![About Us page](documentation/)
+     ![About Us page](documentation/about_us_page.png)
 
 ---
 + ### Gallery Page
@@ -131,7 +169,9 @@ The site can be accessed by this [link](https://sreeshmatharammal.github.io/bloo
 
     - This page showcase company's beautiful and creating work and some moments. 
 
-        ![Gallery page](documentation/)
+    - It has a footer identical to the home page's footer.
+
+    ![Gallery page](documentation/gallery_page.png)
 
 ---
 + ### Contact Us Page
@@ -149,7 +189,7 @@ The site can be accessed by this [link](https://sreeshmatharammal.github.io/bloo
 
     - The submit button leads to the response page.
 
-    ![Contact Us page](documentation/)
+    ![Contact Us page](documentation/contact_us_page.png)
 
 ---
 + ### Response  Page
@@ -160,7 +200,7 @@ The site can be accessed by this [link](https://sreeshmatharammal.github.io/bloo
 
     - It contain back to home button to visit home page.
 
-    ![Response page](documentation/response_page.png)
+    ![Response page](documentation/contact_receive_page.png)
 
 ---
 ## Technologies Used
@@ -182,33 +222,43 @@ The site can be accessed by this [link](https://sreeshmatharammal.github.io/bloo
 
 ### Typography
 
+![Main Font](documentation/primary_font.png)
+
+- Noto Serif Google Font was used as the main font of the website in order to increase readability of the content on the pages.
+
+![Accent Font](documentation/accent_font.png)
+
+- Playfair display Google font was used for all headings including company's logo to attract viewers.
+
 ### Wireframes
 
 #### Mobile devices
     
-    - [Home Page. Mobile Screen](documentation/mobile_home_page.png)
-    - [About Us Page. Mobile Screen](documentation/mobile_about_us_page.png)
-    - [Gallery Page. Mobile Screen](documentation/mobile_gallery_page.png)
-    - [Contact Us Page. Mobile Screen](documentation/mobile_contact_us_page.png)
-    - [Contact Receive Page. Mobile Screen](documentation/mobile_contact_receive_page.png)
+- [Home Page. Mobile Screen](documentation/mobile_home_page.png)
+- [About Us Page. Mobile Screen](documentation/mobile_about_us_page.png)
+- [Gallery Page. Mobile Screen](documentation/mobile_gallery_page.png)
+- [Contact Us Page. Mobile Screen](documentation/mobile_contact_us_page.png)
+- [Contact Receive Page. Mobile Screen](documentation/mobile_contact_receive_page.png)
 
 #### Tablets
-    - [Home Page. Tablet Screen](documentation/tablet_home_page.png)
-    - [About Us Page. Tablet Screen](documentation/tablet_about_us_page.png)
-    - [Gallery Page. Tablet Screen](documentation/tablet_gallery_page.png)
-    - [Contact Us Page. Tablet Screen](documentation/tablet_contact_us_page.png)
-    - [Contact Receive Page. Tablet Screen](documentation/tablet_contact_receive_page.png)
+- [Home Page. Tablet Screen](documentation/tablet_home_page.png)
+- [About Us Page. Tablet Screen](documentation/tablet_about_us_page.png)
+- [Gallery Page. Tablet Screen](documentation/tablet_gallery_page.png)
+- [Contact Us Page. Tablet Screen](documentation/tablet_contact_us_page.png)
+- [Contact Receive Page. Tablet Screen](documentation/tablet_contact_receive_page.png)
 
 #### Desktop
-    - [Home Page. Desktop Screen](documentation/desktop_home_page.png)
-    - [About Us Page. Desktop Screen](documentation/desktop_about_us_page.png)
-    - [Gallery Page. Desktop Screen](documentation/desktop_gallery_page.png)
-    - [Contact Us Page. Desktop Screen](documentation/desktop_contact_us_page.png)
-    - [Contact Receive Page. Desktop Screen](documentation/desktop_contact_receive_page.png)
+- [Home Page. Desktop Screen](documentation/desktop_home_page.png)
+- [About Us Page. Desktop Screen](documentation/desktop_about_us_page.png)
+- [Gallery Page. Desktop Screen](documentation/desktop_gallery_page.png)
+- [Contact Us Page. Desktop Screen](documentation/desktop_contact_us_page.png)
+- [Contact Receive Page. Desktop Screen](documentation/desktop_contact_receive_page.png)
 
 ---
 
 ## Testing
+
+Please refer to the [TESTING.md](TESTING.md) file for all test-related documentation.
 
 ---
 
@@ -228,6 +278,8 @@ The live link can be found [here](https://sreeshmatharammal.github.io/blooming-b
 In order to make a local copy of this project, you can clone it.
 In your IDE Terminal, type the following command to clone my repository:
 
+- `git clone https://sreeshmatharammal.github.io/blooming-buds.git`
+
 ---
 
 ## Future improvements
@@ -238,12 +290,52 @@ In your IDE Terminal, type the following command to clone my repository:
 
 + #### Content
 
+    - Inspiration for the gallery and services section hover effect came from [Kevin Powell](https://www.youtube.com/user/KepowOb) on his YouTube channel.
+
+    - Inspiration for the responsive hamburger navbar came from 'Love Running' project in Code Institute tutorial.
+
+    - Inspiration for the horizontal lines in about us page came from "How to Add Horizontal Lines Before and After a Text in HTML" published the website [Unclebigbay's Blog](https://unclebigbay.com/how-to-add-horizontal-lines-before-and-after-a-text-in-html).
+
 + #### Media
+
+- Images are taken from:
+    + [Hero image](https://www.nytimes.com/wirecutter/reviews/best-online-flower-delivery/)
+    + Services Section:
+        - [Birthday Bouquets](https://www.deerfieldflorist.com/Products/Birthday/Happy_Birthday_Present_Bouquet/244648/13309)
+        - [Anniversary Bouquets](https://lilyblooms.com.au/same-day-anniversary-flower-delivery/)
+        - [Vase Flowers](https://roe.shein.com/1pc-Resin-In-Pot-Water-Culture-Hydroponic-Or-Imitation-Ceramic-Flower-Vase-For-Flower-Arrangement-p-19685958-cat-3893.html)
+        - [Basket Flowers](https://bloommagicflowers.ie/collections/complete-range/products/sympathy-lavender-les-fleurs-sauvages-basket)
+    + Testimonial  Section:
+        - [1st image](https://www.freepik.com/free-photo/outdoor-portrait-happy-white-girl-posing-nature-photo-relaxed-lady-with-wavy-hair-standing-near-beautiful-rose-bush_11578421.htm)
+        - [2nd image](https://create.vista.com/unlimited/stock-photos/337381056/stock-photo-outdoors-portrait-young-man-park/)
+        - [3rd image](https://www.chipchick.com/2023/02/her-wedding-was-supposed-to-be-in-3-months-but-her-fiance-just-broke-up-with-her-in-the-strangest-way.html)
+    + About Us Page:
+       - [About us Hero image](https://www.freepik.com/premium-ai-image/woman-working-flower-shop-with-bouquet-flowers_59571397.htm)
+       - [About Us video](https://www.videvo.net/video/florists-in-shop-working/571093/#rs=video-box)
+    + Gallery Page:
+        - [1st Image](https://www.citysavvyluxembourg.com/luxembourgs-best-flower-shops/)
+        - [2nd Image](https://greenstockflorists.ie/about-us/)
+        - [3rd Image](https://www.freepik.com/premium-photo/professional-woman-florist-talks-smartphone-taking-order-makes-bouquet-working-flower-shop-mature-woman-apron-floristry-studio-creating-beautiful-bunch-self-employed-people-concept_17715881.htm)
+        - [4th Image](https://graziadaily.co.uk/interiors/garden/ts-the-time-of-year-when-we-all-fall-fleetingly-for-peonies-sponsored/)
+        - [5th Image](https://www.bellandtrunk.com/shop/premium-bridal-bouquet)
+        - [6th Image](https://www.istockphoto.com/photo/flower-market-gm597967708-102453799)
+        - [7th Image](https://www.artandflower.com/pages/our-boutique)
+        - [8th Image](https://bloomingboutique.ie/products/flower-bouquet-38?variant=35838886281382)
+        - [9th Image](https://www.flowersforeveryone.com.au/pink-and-mauve-flowers-delivered/)
+        - [10th Image](https://theflowershoponhill.ca/pages/gallery)
+        - [11th Image](https://www.istockphoto.com/photo/appy-friendly-florist-giving-fresh-bouquet-to-customer-gm1369508988-439254122?phrase=black+flower+shop+owner&searchscope=image%2Cfilm)      
+    + Contact Us Page:
+        - [Contact us Hero image]()
+    + Response Page:
+        - [Background image]()
 
 + #### Tools
 
 ---
 
 ## Acknowledgments
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) was a great supporter of another bold idea of mine for this project. Iuliia guided me through the development of the project and helped me to learn a lot of new things by challenging me to do something new.
+- [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
+- [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
 
 ---
