@@ -22,322 +22,97 @@ blooming buds
 
     ## Galaxy S9:
 
-    <div style="display: flex; justify-content: space-around;">
-      <div>
-        <h4>Home Page</h4>
-        <img src="documentation/galaxys9/home_page.jpg" alt="Galaxy S9" style="width:50%; height:auto%;">
-      </div>
-      <div>
-        <h4>About Us</h4>
-        <img src="documentation/galaxys9/about_us_page.jpg" alt="Galaxy S9" style="width:50%; height:auto;">
-      </div>
-      <div>
-        <h4>Gallery</h4>
-        <img src="documentation/galaxys9/gallery_page.jpg" alt="Galaxy S9" style="width:50%; height:auto;">
-      </div>
-      <div>
-        <h4>Contact Us</h4>
-        <img src="documentation/galaxys9/contact_us_page.jpg" alt="Galaxy S9" style="width:50%; height:auto;">
-      </div>
-    </div>
+    ![Gallery S9](documentation/galaxy_s9_responsive.png)
     
     ## Galaxy S20 Ultra:
 
-    <div style="display: flex; justify-content: space-around;">
-      <div>
-        <h4>Home Page</h4>
-        <img src="documentation/galaxys20ultra/home_page.jpg" alt="Galaxy S20 Ultra" style="width:50%; height:auto%;">
-      </div>
-      <div>
-        <h4>About Us</h4>
-        <img src="documentation/galaxys20ultra/about_us_page.jpg" alt="Galaxy S20 Ultra" style="width:50%; height:auto;">
-      </div>
-      <div>
-        <h4>Gallery</h4>
-        <img src="documentation/galaxys20ultra/gallery_page.jpg" alt="Galaxy S20 Ultra" style="width:50%; height:auto;">
-      </div>
-      <div>
-        <h4>Contact Us</h4>
-        <img src="documentation/galaxys20ultra/contact_us_page.jpg" alt="Galaxy S20 Ultra" style="width:50%; height:auto;">
-      </div>
-    </div>
+    ![Gallery S20](documentation/galaxy_s20_ultra_responsive.png)
 
     ## IPad Pro:
 
-    <div style="display: flex; justify-content: space-around;">
-      <div>
-        <h4>Home Page</h4>
-        <img src="documentation/ipadpro/home_page.jpg" alt="IPad Pro" style="width:50%; height:auto%;">
-      </div>
-      <div>
-        <h4>About Us</h4>
-        <img src="documentation/ipadpro/about_us_page.jpg" alt="IPad Pro" style="width:50%; height:auto;">
-      </div>
-      <div>
-        <h4>Gallery</h4>
-        <img src="documentation/ipadpro/gallery_page.jpg" alt="IPad Pro" style="width:50%; height:auto;">
-      </div>
-      <div>
-        <h4>Contact Us</h4>
-        <img src="documentation/ipadpro/contact_us_page.jpg" alt="IPad Pro" style="width:50%; height:auto;">
-      </div>
-    </div>
+    ![IPad Pro](documentation/ipad_pro_responsive.png)
 
     ## IPhone X:
 
-    <div style="display: flex; justify-content: space-around;">
-      <div>
-        <h4>Home Page</h4>
-        <img src="documentation/iphonex/home_page.jpg" alt="IPhone X" style="width:50%; height:auto%;">
-      </div>
-      <div>
-        <h4>About Us</h4>
-        <img src="documentation/iphonex/about_us_page.jpg" alt="IPhone X" style="width:50%; height:auto;">
-      </div>
-      <div>
-        <h4>Gallery</h4>
-        <img src="documentation/iphonex/gallery_page.jpg" alt="IPhone X" style="width:50%; height:auto;">
-      </div>
-      <div>
-        <h4>Contact Us</h4>
-        <img src="documentation/iphonex/contact_us_page.jpg" alt="IPhone X" style="width:50%; height:auto;">
-      </div>
-    </div>
+    ![IPhone X](documentation/iphone_x_responsive.png)
 
     ## Laptop 1024:
 
-    <div style="display: flex; justify-content: space-around;">
-      <div>
-        <h4>Home Page</h4>
-        <img src="documentation/laptop1024/home_page.jpg" alt="Laptop 1024" style="width:50%; height:auto%;">
-      </div>
-      <div>
-        <h4>About Us</h4>
-        <img src="documentation/laptop1024/about_us_page.jpg" alt="Laptop 1024" style="width:50%; height:auto;">
-      </div>
-      <div>
-        <h4>Gallery</h4>
-        <img src="documentation/laptop1024/gallery_page.jpg" alt="Laptop 1024" style="width:50%; height:auto;">
-      </div>
-      <div>
-        <h4>Contact Us</h4>
-        <img src="documentation/laptop1024/contact_us_page.jpg" alt="Laptop 1024" style="width:50%; height:auto;">
-      </div>
-    </div>
+    ![IPhone X](documentation/laptop_1024_responsive.png)
 
     ## Laptop 1440:
 
-    <div style="display: flex; justify-content: space-around;">
-      <div>
-        <h4>Home Page</h4>
-        <img src="documentation/laptop1440/home_page.jpg" alt="Laptop 1440" style="width:50%; height:auto%;">
-      </div>
-      <div>
-        <h4>About Us</h4>
-        <img src="documentation/laptop1440/about_us_page.jpg" alt="Laptop 1440" style="width:50%; height:auto;">
-      </div>
-      <div>
-        <h4>Gallery</h4>
-        <img src="documentation/laptop1440/gallery_page.jpg" alt="Laptop 1440" style="width:50%; height:auto;">
-      </div>
-      <div>
-        <h4>Contact Us</h4>
-        <img src="documentation/laptop1440/contact_us_page.jpg" alt="Laptop 1440" style="width:50%; height:auto;">
-      </div>
-    </div>
+    ![IPhone X](documentation/laptop_1440_responsive.png)
 
     ## Laptop 2560:
 
-    <div style="display: flex; justify-content: space-around;">
-      <div>
-        <h4>Home Page</h4>
-        <img src="documentation/laptop2560/home_page.jpg" alt="Laptop 2560" style="width:50%; height:auto%;">
-      </div>
-      <div>
-        <h4>About Us</h4>
-        <img src="documentation/laptop2560/about_us_page.jpg" alt="Laptop 2560" style="width:50%; height:auto;">
-      </div>
-      <div>
-        <h4>Gallery</h4>
-        <img src="documentation/laptop2560/gallery_page.jpg" alt="Laptop 2560" style="width:50%; height:auto;">
-      </div>
-      <div>
-        <h4>Contact Us</h4>
-        <img src="documentation/laptop2560/contact_us_page.jpg" alt="Laptop 2560" style="width:50%; height:auto;">
-      </div>
-    </div>
+    ![IPhone X](documentation/laptop_2560_responsive.png)
 
 + The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
     ## Desktop Screens:
+    ### Desktop 1024x600
+    [Desktop 1024x600](documentation/desktop_1024_600.mp4)
 
-    <div style="display: flex; justify-content: space-around;">
-      <div>
-        <h4>Desktop 1024x600</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/desktop_1024_600.gif" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div>
-        <h4>Desktop 1024x800</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/desktop_1024_800.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>      
-      <div>
-        <h4>Desktop 1366x768</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/desktop_1366_768.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </div>
+    ### Desktop 1024x800
+    [Desktop 1024x800](documentation/desktop_1024_800.mp4)
 
+    ### Desktop 1366x768
+    [Desktop 1366x768](documentation/desktop_1366_768.mp4)
     
-    <div style="display: flex; justify-content: space-around;">      
-      <div>
-        <h4>Desktop 1440x900</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/desktop_1440_900.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div>
-        <h4>Desktop 1600x900</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/desktop_1600_900.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div>
-        <h4>Desktop 1680x1050</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/desktop_1680_1050.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </div>
+    ### Desktop 1440x900
+    [Desktop 1440x900](documentation/desktop_1440_900.mp4)
 
-    <div style="display: flex; justify-content: space-around;">
-      <div>
-        <h4>Desktop 1920x1080</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/desktop_1920_1080.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div>
-        <h4>Desktop 1920x1200</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/desktop_1920_1200.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </div>
+    ### Desktop 1600x900
+    [Desktop 1600x900](documentation/desktop_1600_900.mp4)
+
+    ### Desktop 1680x1050
+    [Desktop 1680x1050](documentation/desktop_1680_1050.mp4)
+    
+    ### Desktop 1920x1080
+    [Desktop 1920x1080](documentation/desktop_1920_1080.mp4)
+
+    ### Desktop 1920x1200
+    [Desktop 1920x1200](documentation/desktop_1920_1200.mp4)
 
     ## Tablet Screens:
+    ### Tablet 600x960
+    [Tablet 600x960](documentation/tablet_600_960.mp4)
+    
+    ### Tablet 768x1024
+    [Tablet 768x1024](documentation/tablet_768_1024.mp4)
+    
+    ### Tablet 800x1280
+    [Tablet 800x1280](documentation/tablet_800_1280.mp4)
+    
+    ### Tablet 1024x768
+    [Tablet 1024x768](documentation/tablet_1024_768.mp4)
+    
+    ### Tablet 1366x1024
+    [Tablet 1366x1024](documentation/tablet_1366_1024.mp4)
 
-    <div style="display: flex; justify-content: space-around;">      
-      <div>
-        <h4>Tablet 600x960</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/tablet_600_960.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div>
-        <h4>Tablet 768x1024</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/tablet_768_1024.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div>
-        <h4>Tablet 800x1280</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/tablet_800_1280.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </div>
-
-    <div style="display: flex; justify-content: space-around;">
-      <div>
-        <h4>Tablet 1024x768</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/tablet_1024_768.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div>
-        <h4>Tablet 1366x1024</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/tablet_1366_1024.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </div>
 
     - Mobile Screens:
-    <div style="display: flex; justify-content: space-around;">      
-      <div>
-        <h4>Mobile 320x480</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/mobile_320_480.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div>
-        <h4>Mobile 320x568</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/mobile_320_568.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div>
-        <h4>Mobile 360x640</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/mobile_360_640.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </div>
+    ### Mobile 320x480
+    [Mobile 320x480](documentation/mobile_320_480.mp4)
+    
+    ### Mobile 320x568
+    [Mobile 320x568](documentation/mobile_320_568.mp4)
+    
+    ### Mobile 360x640
+    [Mobile 360x640](documentation/mobile_360_640.mp4)
+    
+    ### Mobile 375x667
+    [Mobile 375x667](documentation/mobile_375_667.mp4)
+    
+    ### Mobile 384x640
+    [Mobile 384x640](documentation/mobile_384_640.mp4)
 
-    <div style="display: flex; justify-content: space-around;">      
-      <div>
-        <h4>Mobile 375x667</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/mobile_375_667.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div>
-        <h4>Mobile 384x640</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/mobile_384_640.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div>
-        <h4>Mobile 411x731</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/mobile_411_731.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </div>
-
-    <div style="display: flex; justify-content: space-around;">
-      <div>
-        <h4>Mobile 414x736</h4>
-        <video width="320" height="240" controls>
-          <source src="documentation/mobile_414_736.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </div>
+    ### Mobile 411x731
+    [Mobile 411x731](documentation/mobile_411_731.mp4)
+    
+    ### Mobile 414x736
+    [Mobile 414x736](documentation/mobile_414_736.mp4)
 
 <br>                                    | Galaxy S9 | Galaxy S20 Ultra  | IPhone X  | IPad Pro  | Desktop 1024  | Desktop 1440  | Desktop > 1200px  |
 | --------                              | --------  | --------          | --------  | --------  | --------      | --------      | --------          |
@@ -356,15 +131,11 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - Chrome:
 
-    ![Chrome](documentation/browsers_edge.mp4)
+    [Chrome](documentation/browsers_chrome.mp4)
 
     - Edge:
 
-    ![Edge](documentation/browsers_firefox.gif)
-
-    - Brave:
-
-    ![Brave](documentation/browsers_brave.gif)
+    [Edge](documentation/browsers_edge.mp4)
 
 ## Manual testing
 
