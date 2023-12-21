@@ -565,9 +565,17 @@
 
  }
 
+ /* Media query: large or landscape phones(576px and up) */
+ @media screen and (min-width:576px) {
+    /* Gallery page */
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
  /* Media query: devices with screen width between 600px and 800px (inclusive) */
  @media only screen and (min-width: 600px) and (max-width: 800px) {
-
      /* Our Services section */
      .services-container>div {
          flex-basis: 300px;
@@ -579,23 +587,11 @@
          width: 70%;
          margin-top: 65px;
      }
-
  }
-
- /* Media query: large or landscape phones(576px and up) */
- @media screen and (min-width:576px) {
-
-     /* Gallery page */
-     #photos {
-         column-count: 2;
-         column-gap: 0;
-     }
-
- }
+ 
 
  /*Media query: tables and larger(768px and up)*/
  @media screen and (min-width:768px) {
-
      h1,
      h2,
      h3 {
@@ -768,7 +764,6 @@
 
  /*Media query: laptops and desktops(992px and up)*/
  @media screen and (min-width:992px) {
-
      /* Header */
      #logo {
          font-size: 400%;
@@ -823,7 +818,6 @@
 
  /* Media query: screen size 1200px and wider*/
  @media screen and (min-width:1200px) {
-
      /* Hero */
      #cover-text {
          right: 100px;
@@ -859,7 +853,6 @@
 
      .meet-our-team {
          padding: 0 8rem;
-
      }
 
      /* Gallery page */
@@ -876,5 +869,4 @@
      .contact-us-cover>h2 {
          font-size: 200%;
      }
-
  }
