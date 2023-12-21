@@ -740,18 +740,7 @@
      #contact-form h3 {
          font-size: 20px;
          font-weight: bold;
-     }
-
-     .text-input:hover,
-     textarea:hover {
-         border-color: lightpink;
-     }
-
-     .send-button:hover {
-         background-color: goldenrod;
-         color: rgb(94, 84, 159);
-         cursor: pointer;
-     }
+     }       
 
      .contact-recieve-container p:first-child {
          font-size: 40px;
@@ -798,6 +787,11 @@
          margin-left: 25%;
          margin-top: 100px;
      }
+
+     .text-input:hover,
+     textarea:hover {
+         border-color: lightpink;
+     } 
 
      .send-button:hover {
          background-color: purple;
