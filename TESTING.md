@@ -222,24 +222,19 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ​
 ## Bugs
 + ### Solved bugs
-    1. The testimonials pictures had a square shape in Brave browser on a mobile phone when the border radius had been set to 50%. It was due to the outline properties settings instead of the border
+    1. Flickering in gallery page when mouse hover feature added
     
-        *Solutions:* Outline was replaced with border properties.
+        *Solutions:* Padding applied to fix this issue.
     
-    1. The gallery image descriptions were not appearing on the picture when hovering it as the position of the .image_content was set to fixed.
+    2. About us page hero image was not showing in edge browser.
         
-        *Solution:* The .image_content position was set to absolute, with the top: 0, left: 0, and added padding on the .image_content. 
-
-    1. Footer on the contact page was reducing the size of the screen and shrank the contact form as the height of the background image was set to calc(100vh-the size of the footer)
-        
-        *Solution:* The height of the image was set to 100hv, and the display of the footer was set to fixed.
+        *Solution:* Converted image to JPEG format. 
+    
     ---
 + ### Unsolved bugs
     - None.
 + ### Mistakes
-    - Mistakes were made while committing changes. I used past simple tense in commits due to the habit when I just started working on this project.
-    - While progressing in my code I learned to use present simple tense in commits.
+    - While updating readme used mp4 files and html tags. The vscode preview showing expected behaviour
+    - Reliazed github markdown does not support this. Converted to GIF.
 
 ---
-TESTING.md
-Displaying TESTING.md.
