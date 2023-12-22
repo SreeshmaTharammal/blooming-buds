@@ -9,36 +9,34 @@ The site can be accessed by this [link](https://sreeshmatharammal.github.io/bloo
 # Table of Contents
 
 - [UX](#ux "UX")  
-  - [User Stories](#user-stories "User Stories")
-  - [Site Owners Goals](#site-owners-goals)
-  - [User Requirements and Expectations](#user-requirements-and-expectations)
-    - [Requirements](#requirements)
-    - [Expectations](#expectations)
-  - [Design Choices](#design-choices)
-    - [Fonts](#fonts)
-    - [Icons](#icons)
-    - [Colors](#colors)
-    - [Structure](#structure)
-- [Wireframes](#wireframes)
+  - [User Stories](#user-stories)  
+    - [First Time Visitor Goals](#first-time-visitor-goals)
+    - [Returning VisitorGoals](#returning-visitorgoals)
   - [Features](#features)
-    - [Navigation Bar](#navigation-bar)
-    - [Welcome Section](#welcome-section)
-    - [History Section](#history-section)
-    - [Culture Section](#culture-section)
-    - [Attraction Section](#attraction-section)
-    - [Cuisine Section](#cuisine-section)
-    - [Contact Section](#contact-section)
-    - [Footer](#footer)
-    - [Thank You Page](#thank-you-page-form-submision-page)
-    - [Features to be implemented](#features-to-be-implemented)
-- [Technologies used](#technologies-used)
-  - [Languages](#languages)
-  - [Tools](#tools)
-- [Testing](#testing)
-  - [Unfixed Bugs](#unfixed-bugs)
-- [Deployment](#deployment)
-- [Refactor](#refactor)
-- [Credits](#credits)
+    - [Navbar](#navbar)
+    - [Home Page](#home-page)
+    - [About Us page](#about-us-page)
+    - [Gallery Page](#gallery-page)
+    - [Contact Us Page](#contact-us-page)
+    - [Response Page](#response--page)
+  - [Technologies used](#technologies-used)
+  - [Design](#design)
+    - [Color Scheme](#color-scheme)
+    - [Typography](#typography)
+    - [Wireframes](#wireframes)
+        - [Mobile devices](#mobile-devices)
+        - [Tablets](#tablets)
+        - [Desktop](#desktop)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+    - [Deployment to GitHub Pages](#deployment-to-github-pages)
+    - [Local Deployment](local-deployment)
+  - [Future improvements](#future-improvements)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+    - [Tools](#tools)    
+- [Acknowledgments](#acknowledgments)  
 
 ---
 # UX
@@ -88,8 +86,6 @@ The site can be accessed by this [link](https://sreeshmatharammal.github.io/bloo
 
             ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
 
-
-
 ---
 
 + ### Home Page
@@ -98,9 +94,7 @@ The site can be accessed by this [link](https://sreeshmatharammal.github.io/bloo
 
     * the main idea of the company.
     * Emphasize the strong points of the company.
-    * Shows feedback from satisfied clients.    
-
-    ![Home Page](documentation/home_page.png)
+    * Shows feedback from satisfied clients.       
 
 ---
 
@@ -148,7 +142,7 @@ The site can be accessed by this [link](https://sreeshmatharammal.github.io/bloo
 ![Footer](documentation/footer.png)
 
 ---
-+ #### About Us page
++ ### About Us page
 
     - About Us page has a hero image and an introduction and history of the company.
 
@@ -212,13 +206,14 @@ The site can be accessed by this [link](https://sreeshmatharammal.github.io/bloo
 - [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
-- [GIMP](https://www.gimp.org/) was used to make and resize images for the README file.
 
 ---
 ## Design
     
 
 ### Color Scheme
+
+![Main Font](documentation/color_scheme.png)
 
 ### Typography
 
@@ -284,6 +279,8 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ## Future improvements
 
+  - Add support for online shopping.
+
 ---
 
 ## Credits
@@ -325,11 +322,14 @@ In your IDE Terminal, type the following command to clone my repository:
         - [10th Image](https://theflowershoponhill.ca/pages/gallery)
         - [11th Image](https://www.istockphoto.com/photo/appy-friendly-florist-giving-fresh-bouquet-to-customer-gm1369508988-439254122?phrase=black+flower+shop+owner&searchscope=image%2Cfilm)      
     + Contact Us Page:
-        - [Contact us Hero image]()
+        - [Contact us Hero image](https://myloview.com/sticker-female-hands-using-laptop-female-office-desk-workspace-homeoffice-no-B08A628)
     + Response Page:
-        - [Background image]()
+        - [Background image](https://www.iphronline.org/sad-loss-brave-human-rights-defender-uzbekistan.html/spring-background-fruit-flowers-on-wooden-table)
 
 + #### Tools
+
+  - [Favicon Generator](https://realfavicongenerator.net/) was used to generate favicon.
+  - Ms Paint was used to resize images.
 
 ---
 

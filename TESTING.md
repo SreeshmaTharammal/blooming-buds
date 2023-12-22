@@ -114,11 +114,11 @@ blooming buds
     ### Mobile 414x736
     ![Mobile 414x736](documentation/mobile_414_736.gif)
 
-<br>                                    | Galaxy S9 | Galaxy S20 Ultra  | IPhone X  | IPad Pro  | Desktop 1024  | Desktop 1440  | Desktop > 1200px  |
+Device/Feature                          | Galaxy S9 | Galaxy S20 Ultra  | IPhone X  | IPad Pro  | Desktop 1024  | Desktop 1440  | Desktop > 1200px  |
 | --------                              | --------  | --------          | --------  | --------  | --------      | --------      | --------          |
 | Site is <br>responsive for >= 700px   | n/a       | n/a               | n/a       | Good      | Good          | Good          | Good              |
 | Site is <br>responsive for < 699px    | Good      | Good              | Good      | n/a       | n/a           | n/a           | n/a               |
-<br/>
+|                                       |           |                   |           |           |               |               |                   |
 | Links / URLs work                     | Good      | Good              | Good      | Good      | Good          | Good          | Good              |
 | Images work                           | Good      | Good              | Good      | Good      | Good          | Good          | Good              |
 | Renders are expected                  | Good      | Good              | Good      | Good      | Good          | Good          | Good              |
